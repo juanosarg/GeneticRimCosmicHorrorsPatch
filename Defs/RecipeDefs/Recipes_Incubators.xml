@@ -297,7 +297,7 @@
 
 	<RecipeDef>
 		<defName>GR_CreateEldritchReptileIncubator</defName>
-		<label>eldritch muffalo incubator</label>
+		<label>eldritch reptilian incubator</label>
 		<description>Fill an incubator with genes from a reptilian and an eldritch beast</description>
 		<jobString>Filling Incubator</jobString>
 		<effectWorking>Cremate</effectWorking>

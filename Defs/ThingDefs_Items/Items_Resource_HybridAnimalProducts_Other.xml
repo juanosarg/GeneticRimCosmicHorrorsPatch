@@ -7,7 +7,7 @@
 
   <ThingDef ParentName="ResourceVerbBase">
     <defName>GR_DarkYoungWoodLog</defName>
-    <label>wood</label>
+    <label>eldritch wood</label>
     <description>This wood-like material has been extracted from the tentacles of an eldritch creature. Let's make a cupboard out of them!</description>
     <graphicData>
       <texPath>Things/Item/GR_DarkYoungWoodLog</texPath>
