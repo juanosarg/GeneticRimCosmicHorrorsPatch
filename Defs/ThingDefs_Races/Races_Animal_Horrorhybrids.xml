@@ -124,7 +124,7 @@
 				<invisible>false</invisible>
 				<regenRate>0.0125</regenRate>
 				<regenInterval>1000</regenInterval>
-				<sanityLossRate>0.004</sanityLossRate>
+				<sanityLossRate>0.0</sanityLossRate>
 				<painFactor>0.25</painFactor>
 			</li>
 		</modExtensions>
@@ -305,7 +305,7 @@
 				<invisible>false</invisible>
 				<regenRate>0.01</regenRate>
 				<regenInterval>1000</regenInterval>
-				<sanityLossRate>0.0075</sanityLossRate>
+				<sanityLossRate>0.0</sanityLossRate>
 				<painFactor>0.25</painFactor>
 			</li>
 		</modExtensions>
@@ -482,7 +482,7 @@
 				<invisible>false</invisible>
 				<regenRate>0.0</regenRate>
 				<regenInterval>0</regenInterval>
-				<sanityLossRate>0.008</sanityLossRate>
+				<sanityLossRate>0.0</sanityLossRate>
 				<painFactor>1</painFactor>		
 			</li>
 		</modExtensions>
@@ -669,7 +669,7 @@
 				<invisible>false</invisible>
 				<regenRate>0.0</regenRate>
 				<regenInterval>0</regenInterval>
-				<sanityLossRate>0.04</sanityLossRate>
+				<sanityLossRate>0.0</sanityLossRate>
 				<painFactor>0.3</painFactor>	
 			</li>
 		</modExtensions>
@@ -857,7 +857,7 @@
 				<invisible>false</invisible>
 				<regenRate>0.0</regenRate>
 				<regenInterval>0</regenInterval>
-				<sanityLossRate>0.04</sanityLossRate>
+				<sanityLossRate>0.0</sanityLossRate>
 				<painFactor>0.5</painFactor>
 			</li>
 		</modExtensions>
@@ -939,7 +939,7 @@
 	<ThingDef ParentName="AnimalThingBase" ADogSaidBody="Limbless">
 		<defName>GR_EldritchReptile</defName>
 		<label>snake of Yig</label>
-		<description>This multi-headed snake has been blessed by Yig, the Father of Serpents. Or maybe it is just a very unfortunate snake which has been the target of your colonits' mad science...\n\nUseful abilities: Six venomous fangs, biting at the same time with a powerful venom. It also lays some weird eggs.</description>
+		<description>This multi-headed snake has been blessed by Yig, the Father of Serpents. Or maybe it is just a very unfortunate snake which has been the target of your colonists' mad science...\n\nUseful abilities: Six venomous fangs, biting at the same time with a powerful venom. It also lays some weird eggs.</description>
 
 
 		<statBases>
@@ -1042,7 +1042,7 @@
 				<invisible>false</invisible>
 				<regenRate>0.0</regenRate>
 				<regenInterval>0</regenInterval>
-				<sanityLossRate>0.04</sanityLossRate>
+				<sanityLossRate>0.0</sanityLossRate>
 				<painFactor>0.25</painFactor>
 			</li>
 		</modExtensions>
@@ -1214,7 +1214,7 @@
 				<invisible>false</invisible>
 				<regenRate>0.0</regenRate>
 				<regenInterval>0</regenInterval>
-				<sanityLossRate>0.08</sanityLossRate>
+				<sanityLossRate>0.0</sanityLossRate>
 				<painFactor>1</painFactor>	
 			</li>
 		</modExtensions>
@@ -1396,7 +1396,7 @@
 				<invisible>false</invisible>
 				<regenRate>0.05</regenRate>
 				<regenInterval>1000</regenInterval>
-				<sanityLossRate>0.012</sanityLossRate>
+				<sanityLossRate>0.0</sanityLossRate>
 				<painFactor>0.25</painFactor>	
 			</li>
 		</modExtensions>

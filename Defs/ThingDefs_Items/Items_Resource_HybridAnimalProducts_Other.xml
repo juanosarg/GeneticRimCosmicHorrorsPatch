@@ -28,7 +28,7 @@
       <BluntDamageMultiplier>0.9</BluntDamageMultiplier>
     </statBases>
     <stuffProps>
-      <stuffAdjective>wooden</stuffAdjective>
+      <stuffAdjective>eldritch wooden</stuffAdjective>
       <categories>
         <li>Woody</li>
       </categories>
