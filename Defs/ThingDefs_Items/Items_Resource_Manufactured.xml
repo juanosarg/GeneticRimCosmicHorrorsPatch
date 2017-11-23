@@ -4,7 +4,7 @@
   <!--=============== Genetic Material ====================-->
 
 
-  <ThingDef ParentName="GeneticsBase">
+  <ThingDef ParentName="GR_GeneticsBase">
     <defName>GR_EldritchGenetic</defName>
     <label>eldritch genetic material</label>
     <description>A vial of genetic material extracted from an eldritch beast.</description>

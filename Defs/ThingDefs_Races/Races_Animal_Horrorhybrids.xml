@@ -2,7 +2,7 @@
 <Defs>
 
 	<!-- Bear -->
-	<ThingDef ParentName="AnimalThingBase" ADogSaidBody="Legs">
+	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_EldritchBear</defName>
 		<label>bear young</label>
 		<description>This otherworldly bear has repulsive, purple coloured tentacles protruding from its maw. Its pelt has a strange wooden-like appearance. Its ravenous appetite can only be sated by consuming large amounts of meat, which the creature dissolves with the green acidic goo dropping from its many gaping maws.\n\nUseful abilities: Since the creature constantly regenerates, its tentacles can be trimmed every few days, and used as a substitute for wood.</description>
@@ -15,55 +15,69 @@
 			<MeatAmount>20</MeatAmount>
 
 		</statBases>
-		<verbs>
-
-			<li>
-				<verbClass>Verb_MeleeAttack</verbClass>
-				<defaultCooldownTime>1.5</defaultCooldownTime>
-				<meleeDamageBaseAmount>12</meleeDamageBaseAmount>
-				<meleeDamageDef>Blunt</meleeDamageDef>
-				<linkedBodyPartsGroup>ROM_Hooves</linkedBodyPartsGroup>
-				<surpriseAttack>
-					<extraMeleeDamages>
-						<li>
-							<def>Stun</def>
-							<amount>19</amount>
-						</li>
-					</extraMeleeDamages>
-				</surpriseAttack>
-			</li>
-			<li>
-				<verbClass>Verb_MeleeAttack</verbClass>
-				<defaultCooldownTime>0.9</defaultCooldownTime>
-				<meleeDamageBaseAmount>14</meleeDamageBaseAmount>
-				<meleeDamageDef>Blunt</meleeDamageDef>
-				<linkedBodyPartsGroup>ROM_Tentacles</linkedBodyPartsGroup>
-				<surpriseAttack>
-					<extraMeleeDamages>
-						<li>
-							<def>Stun</def>
-							<amount>19</amount>
-						</li>
-					</extraMeleeDamages>
-				</surpriseAttack>
-			</li>
-			<li>
-				<verbClass>Verb_MeleeAttack</verbClass>
-				<defaultCooldownTime>1.5</defaultCooldownTime>
-				<meleeDamageBaseAmount>12</meleeDamageBaseAmount>
-				<meleeDamageDef>ToxicBite</meleeDamageDef>
-				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-				<surpriseAttack>
-					<extraMeleeDamages>
-						<li>
-							<def>Stun</def>
-							<amount>16</amount>
-						</li>
-					</extraMeleeDamages>
-				</surpriseAttack>
-			</li>
-
-		</verbs>
+		<tools>
+		  <li>
+			<label>hooves</label>
+			<capacities>
+			  <li>Blunt</li>
+			</capacities>
+			<power>12</power>
+			<cooldownTime>1.5</cooldownTime>
+			<linkedBodyPartsGroup>ROM_Hooves</linkedBodyPartsGroup>
+			<surpriseAttack>
+			  <extraMeleeDamages>
+				<li>
+				  <def>Stun</def>
+				  <amount>19</amount>
+				</li>
+			  </extraMeleeDamages>
+			</surpriseAttack>
+		  </li>
+		  <li>
+			<label>tentacles</label>
+			<capacities>
+			  <li>Blunt</li>
+			</capacities>
+			<power>14</power>
+			<cooldownTime>0.9</cooldownTime>
+			<linkedBodyPartsGroup>ROM_Tentacles</linkedBodyPartsGroup>
+			<surpriseAttack>
+			  <extraMeleeDamages>
+				<li>
+				  <def>Stun</def>
+				  <amount>19</amount>
+				</li>
+			  </extraMeleeDamages>
+			</surpriseAttack>
+		  </li>
+		  <li>
+			<capacities>
+			  <li>ToxicBite</li>
+			</capacities>
+			<power>12</power>
+			<cooldownTime>1.5</cooldownTime>
+			<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+			<surpriseAttack>
+			  <extraMeleeDamages>
+				<li>
+				  <def>Stun</def>
+				  <amount>18</amount>
+				</li>
+			  </extraMeleeDamages>
+			</surpriseAttack>
+		  </li>
+		  <li>
+			<label>head</label>
+			<capacities>
+			  <li>Blunt</li>
+			</capacities>
+			<power>6</power>
+			<cooldownTime>1.65</cooldownTime>
+			<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+			<commonality>0.2</commonality>
+		  </li>
+		</tools>
+		
 		<comps>
 
 			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
@@ -203,7 +217,7 @@
 	</PawnKindDef>
 
 	<!-- Boomalope -->
-	<ThingDef ParentName="AnimalThingBase" ADogSaidBody="Limbless">
+	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_EldritchBoomalope</defName>
 		<label>formless boomalope of Tsathoggua</label>
 		<description>This polymorphic entity is made of light brown ichor and looks like amorphous goo. It seems to be extremely resilient and very difficult to dispatch. Its pelt seems to be powerfully acidic in substance and can dissolve human flesh with even a slight touch.\n\nUseful abilities: Explodes on death with a very powerful psionic blast.</description>
@@ -216,32 +230,37 @@
 			<MeatAmount>20</MeatAmount>
 
 		</statBases>
-		<verbs>
+		<tools>
+			<li>
+			    <label>amoebic tentacle</label>
 
-			<li>
-				<verbClass>Verb_MeleeAttack</verbClass>
-				<defaultCooldownTime>1.5</defaultCooldownTime>
-				<meleeDamageBaseAmount>9</meleeDamageBaseAmount>
-				<meleeDamageDef>VeryToxicBite</meleeDamageDef>
+				<capacities>
+					<li>GR_VeryToxicBite</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>1.5</cooldownTime>
 				<linkedBodyPartsGroup>ROM_Tentacles</linkedBodyPartsGroup>
-			</li>
-			<li>
-				<verbClass>Verb_MeleeAttack</verbClass>
-				<defaultCooldownTime>1.65</defaultCooldownTime>
-				<meleeDamageBaseAmount>13</meleeDamageBaseAmount>
-				<meleeDamageDef>Bite</meleeDamageDef>
-				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 				<surpriseAttack>
 					<extraMeleeDamages>
 						<li>
 							<def>Stun</def>
-							<amount>18</amount>
+							<amount>12</amount>
 						</li>
 					</extraMeleeDamages>
 				</surpriseAttack>
 			</li>
-
-		</verbs>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>13</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<commonality>0.2</commonality>
+			</li>
+		</tools>
+		
 
 		<race>
 			<deathActionWorkerClass>ExplosionTypes.DeathActionWorker_PsionicExplosion</deathActionWorkerClass>
@@ -399,24 +418,28 @@
 			<ArmorRating_Sharp>0.4</ArmorRating_Sharp>
 
 		</statBases>
-		<verbs>
-
-			<li>
-				<verbClass>Verb_MeleeAttack</verbClass>
-				<defaultCooldownTime>0.4</defaultCooldownTime>
-				<meleeDamageBaseAmount>5</meleeDamageBaseAmount>
-				<meleeDamageDef>ROM_Psychic</meleeDamageDef>
-				<linkedBodyPartsGroup>ROM_Mind</linkedBodyPartsGroup>
-			</li>
-			<li>
-				<verbClass>Verb_MeleeAttack</verbClass>
-				<defaultCooldownTime>1.5</defaultCooldownTime>
-				<meleeDamageBaseAmount>10</meleeDamageBaseAmount>
-				<meleeDamageDef>Blunt</meleeDamageDef>
-				<linkedBodyPartsGroup>ROM_Wings</linkedBodyPartsGroup>
-			</li>
-
-		</verbs>
+		<tools>
+		  <li>
+		    <label>overwhelming mind</label>
+			<capacities>
+			  <li>ROM_Psychic</li>
+			</capacities>
+			<power>5</power>
+			<cooldownTime>0.4</cooldownTime>
+			<linkedBodyPartsGroup>ROM_Mind</linkedBodyPartsGroup>
+		  </li>
+		  <li>
+		    <label>body</label>
+			<capacities>
+			  <li>Blunt</li>
+			</capacities>
+			<power>10</power>
+			<cooldownTime>1.5</cooldownTime>
+			<linkedBodyPartsGroup>ROM_Wings</linkedBodyPartsGroup>
+		  </li>
+		  
+		</tools>
+		
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggUnfertilizedDef>GR_EldritchChickenEggUnfertilized</eggUnfertilizedDef>
@@ -575,37 +598,44 @@
 			<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
 		</statBases>
-		<verbs>
-			<li>
-				<verbClass>Verb_MeleeAttack</verbClass>
-				<defaultCooldownTime>1.5</defaultCooldownTime>
-				<meleeDamageBaseAmount>7</meleeDamageBaseAmount>
-				<meleeDamageDef>Blunt</meleeDamageDef>
-				<linkedBodyPartsGroup>ROM_Tentacles</linkedBodyPartsGroup>
-			</li>
-			<li>
-				<verbClass>Verb_MeleeAttack</verbClass>
-				<defaultCooldownTime>1.0</defaultCooldownTime>
-				<meleeDamageBaseAmount>13</meleeDamageBaseAmount>
-				<meleeDamageDef>ROM_Psychic</meleeDamageDef>
-				<linkedBodyPartsGroup>ROM_Mind</linkedBodyPartsGroup>
-			</li>
-			<li>
-				<verbClass>Verb_MeleeAttack</verbClass>
-				<defaultCooldownTime>2.0</defaultCooldownTime>
-				<meleeDamageBaseAmount>9</meleeDamageBaseAmount>
-				<meleeDamageDef>Cut</meleeDamageDef>
-				<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
-				<surpriseAttack>
-					<extraMeleeDamages>
-						<li>
-							<def>Stun</def>
-							<amount>8</amount>
-						</li>
-					</extraMeleeDamages>
-				</surpriseAttack>
-			</li>
-		</verbs>
+		<tools>
+		  <li>
+		  	<label>grasping tentacles</label>
+			<capacities>
+			  <li>Blunt</li>
+			</capacities>
+			<power>7</power>
+			<cooldownTime>1.5</cooldownTime>
+			<linkedBodyPartsGroup>ROM_Tentacles</linkedBodyPartsGroup>
+		  </li>
+		  <li>
+			<label>overwhelming mind</label>
+			<capacities>
+			  <li>ROM_Psychic</li>
+			</capacities>
+			<power>13</power>
+			<cooldownTime>1</cooldownTime>
+			<linkedBodyPartsGroup>ROM_Mind</linkedBodyPartsGroup>
+		  </li>
+		  <li>
+			<label>mandibles</label>
+			<capacities>
+			  <li>Cut</li>
+			</capacities>
+			<power>9</power>
+			<cooldownTime>2</cooldownTime>
+			<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+			<surpriseAttack>
+			  <extraMeleeDamages>
+				<li>
+				  <def>Stun</def>
+				  <amount>8</amount>
+				</li>
+			  </extraMeleeDamages>
+			</surpriseAttack>
+		  </li>
+		</tools>
+		
 		<comps>
 
 			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
@@ -764,30 +794,36 @@
 			<ComfyTemperatureMin>-80</ComfyTemperatureMin>
 			<ComfyTemperatureMax>80</ComfyTemperatureMax>
 		</statBases>
-		<verbs>
-			<li>
-				<verbClass>Verb_MeleeAttack</verbClass>
-				<defaultCooldownTime>2.0</defaultCooldownTime>
-				<meleeDamageBaseAmount>12</meleeDamageBaseAmount>
-				<meleeDamageDef>Cut</meleeDamageDef>
-				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-			</li>
-			<li>
-				<verbClass>Verb_MeleeAttack</verbClass>
-				<defaultCooldownTime>1.1</defaultCooldownTime>
-				<meleeDamageBaseAmount>8</meleeDamageBaseAmount>
-				<meleeDamageDef>ROM_Exsanguination</meleeDamageDef>
-				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-				<surpriseAttack>
-					<extraMeleeDamages>
-						<li>
-							<def>Stun</def>
-							<amount>10</amount>
-						</li>
-					</extraMeleeDamages>
-				</surpriseAttack>
-			</li>
-		</verbs>
+		<tools>
+		  <li>
+			<label>vampiric teeth</label>
+			<capacities>
+			  <li>ROM_Exsanguination</li>
+			</capacities>
+			<power>8</power>
+			<cooldownTime>1.1</cooldownTime>
+			<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+			<surpriseAttack>
+			  <extraMeleeDamages>
+				<li>
+				  <def>Stun</def>
+				  <amount>10</amount>
+				</li>
+			  </extraMeleeDamages>
+			</surpriseAttack>
+		  </li>
+
+		  <li>
+			
+			<capacities>
+			  <li>Cut</li>
+			</capacities>
+			<power>12</power>
+			<cooldownTime>2.0</cooldownTime>
+			<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+		  </li>
+		</tools>
+		
 		<comps>
 			<li Class="CompProperties_Milkable">
 				<milkDef>GR_EldritchMilk</milkDef>
@@ -949,32 +985,38 @@
 			<MeatAmount>20</MeatAmount>
 
 		</statBases>
-		<verbs>
-			<li>
-				<verbClass>Verb_MeleeAttack</verbClass>
-				<defaultCooldownTime>0.3</defaultCooldownTime>
-				<meleeDamageBaseAmount>4</meleeDamageBaseAmount>
-				<meleeDamageDef>ToxicBite</meleeDamageDef>
-				<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
-				<surpriseAttack>
-					<extraMeleeDamages>
-						<li>
-							<def>Stun</def>
-							<amount>7</amount>
-						</li>
-					</extraMeleeDamages>
-				</surpriseAttack>
-			</li>
+		<tools>
+		  <li>
+			<label>toxic bite</label>
+			<capacities>
+			  <li>ToxicBite</li>
+			</capacities>
+			<power>4</power>
+			<cooldownTime>0.3</cooldownTime>
+			<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+			<surpriseAttack>
+			  <extraMeleeDamages>
+				<li>
+				  <def>Stun</def>
+				  <amount>7</amount>
+				</li>
+			  </extraMeleeDamages>
+			</surpriseAttack>
+		  </li>
+
+		  <li>
 			
-			<li>
-				<verbClass>Verb_MeleeAttack</verbClass>
-				<defaultCooldownTime>1.65</defaultCooldownTime>
-				<meleeDamageBaseAmount>1</meleeDamageBaseAmount>
-				<meleeDamageDef>Blunt</meleeDamageDef>
-				<commonality>0.01</commonality>
-				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-			</li>
-		</verbs>
+			<capacities>
+			  <li>Blunt</li>
+			</capacities>
+			<power>1</power>
+			<cooldownTime>0.65</cooldownTime>
+			<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+			<commonality>0.1</commonality>
+
+		  </li>
+		</tools>
+		
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggUnfertilizedDef>GR_EldritchReptileEggUnfertilized</eggUnfertilizedDef>
@@ -1135,31 +1177,40 @@
 			<ArmorRating_Blunt>0.40</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.40</ArmorRating_Sharp>
 		</statBases>
-		<verbs>
+		<tools>
+		  <li>
+			<label>rending claws</label>
+			<capacities>
+			  <li>Cut</li>
+			</capacities>
+			<power>20</power>
+			<cooldownTime>0.9</cooldownTime>
+			<linkedBodyPartsGroup>ROM_RightClaws</linkedBodyPartsGroup>
+			
+		  </li>
+		  <li>
+			<label>mandibles</label>
+			<capacities>
+			  <li>Bite</li>
+			</capacities>
+			<power>30</power>
+			<cooldownTime>0.9</cooldownTime>
+			<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+			
+		  </li>
+		  <li>
+			
+			<capacities>
+			  <li>Blunt</li>
+			</capacities>
+			<power>11</power>
+			<cooldownTime>1.65</cooldownTime>
+			<linkedBodyPartsGroup>FullHead</linkedBodyPartsGroup>
+			<commonality>0.01</commonality>
 
-			<li>
-				<verbClass>Verb_MeleeAttack</verbClass>
-				<defaultCooldownTime>1.65</defaultCooldownTime>
-				<meleeDamageBaseAmount>11</meleeDamageBaseAmount>
-				<meleeDamageDef>Blunt</meleeDamageDef>
-				<commonality>0.01</commonality>
-				<linkedBodyPartsGroup>FullHead</linkedBodyPartsGroup>
-			</li>
-			<li>
-				<verbClass>Verb_MeleeAttack</verbClass>
-				<defaultCooldownTime>0.9</defaultCooldownTime>
-				<meleeDamageBaseAmount>20</meleeDamageBaseAmount>
-				<meleeDamageDef>Cut</meleeDamageDef>
-				<linkedBodyPartsGroup>ROM_Claws</linkedBodyPartsGroup>
-			</li>
-			<li>
-				<verbClass>Verb_MeleeAttack</verbClass>
-				<defaultCooldownTime>0.9</defaultCooldownTime>
-				<meleeDamageBaseAmount>30</meleeDamageBaseAmount>
-				<meleeDamageDef>Bite</meleeDamageDef>
-				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-			</li>
-		</verbs>
+		  </li>
+		</tools>
+		
 
 		<race>
 			<bloodDef>ROM_FilthBloodDeepOne</bloodDef>
@@ -1319,31 +1370,37 @@
 			<ArmorRating_Blunt>0.9</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.9</ArmorRating_Sharp>
 		</statBases>
-		<verbs>
-
-			  <li>
-				<verbClass>Verb_MeleeAttack</verbClass>
-				<defaultCooldownTime>1.0</defaultCooldownTime>
-				<meleeDamageBaseAmount>12</meleeDamageBaseAmount>
-				<meleeDamageDef>ToxicBite</meleeDamageDef>
-				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-			  </li>
-			        <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>0.7</defaultCooldownTime>
-        <meleeDamageBaseAmount>10</meleeDamageBaseAmount>
-        <meleeDamageDef>Cut</meleeDamageDef>
-        <linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
-      </li>
-     
-		</verbs>
+		<tools>
+		  <li>
+			<label>venomous fangs</label>
+			<capacities>
+			  <li>ToxicBite</li>
+			</capacities>
+			<power>12</power>
+			<cooldownTime>1</cooldownTime>
+			<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+			
+		  </li>
+		  <li>
+			
+			<capacities>
+			  <li>Cut</li>
+			</capacities>
+			<power>10</power>
+			<cooldownTime>0.7</cooldownTime>
+			<linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
+			
+		  </li>
+		 
+		</tools>
+		
 
 		<race>
 			<bloodDef>ROM_FilthBloodShoggoth</bloodDef>
 			<useLeatherFrom>ROM_Shoggoth</useLeatherFrom>
 			<useMeatFrom>WolfTimber</useMeatFrom>
 			<herdAnimal>false</herdAnimal>
-			<body>BirdWithTeeth</body>
+			<body>GR_BirdWithTeeth</body>
 			<baseHungerRate>2</baseHungerRate>
 			<baseBodySize>1.5</baseBodySize>
 			<baseHealthScale>2</baseHealthScale>

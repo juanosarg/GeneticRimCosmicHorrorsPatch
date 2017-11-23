@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
   
  
 
   
 <ThingDef ParentName="BuildingBase">
-    <DefName>GR_EldritchGenePod</DefName>
+    <defName>GR_EldritchGenePod</defName>
     <label>eldritch genePod</label>
-    <ThingClass>Building_WorkTable</ThingClass>
-    <Description>Eldritch genetic material samples are combined and grown in this laboratory, a perfect mixture of arcane eldritch magics and technology.</Description>
+    <thingClass>Building_WorkTable</thingClass>
+    <description>Eldritch genetic material samples are combined and grown in this laboratory, a perfect mixture of arcane eldritch magics and technology.</description>
     <graphicData>
       <texPath>Things/Building/GR_EldritchGenePod</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -21,7 +21,7 @@
       <Steel>200</Steel>
       <Component>4</Component>
     </costList>
-    <AltitudeLayer>Building</AltitudeLayer>
+    <altitudeLayer>Building</altitudeLayer>
     <fillPercent>0.5</fillPercent>
     <useHitPoints>True</useHitPoints>
     <statBases>
@@ -29,9 +29,8 @@
       <MaxHitPoints>180</MaxHitPoints>
       <Flammability>1.0</Flammability>
     </statBases>
-    <Size>(4,4)</Size>
-    <DesignationCategory>Production</DesignationCategory>
-    <Passability>PassThroughOnly</Passability>
+    <size>(4,4)</size>
+    <passability>PassThroughOnly</passability>
     <pathCost>70</pathCost>
     <hasInteractionCell>True</hasInteractionCell>
     <interactionCellOffset>(0,0,-2)</interactionCellOffset>
@@ -57,10 +56,10 @@
       </li>
     </comps>
     <researchPrerequisites><li>GR_EldritchGeneticEngineering</li></researchPrerequisites>
-		<designationCategory>GeneticsTab</designationCategory>
+		<designationCategory>GR_GeneticsTab</designationCategory>
 
 </ThingDef>
 
 
   
-</ThingDefs>
+</Defs>

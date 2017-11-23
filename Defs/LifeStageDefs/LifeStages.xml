@@ -35,7 +35,6 @@
 		<marketValueFactor>1.2</marketValueFactor>
 		<statFactors>
 			<MoveSpeed>1.25</MoveSpeed>
-			<MeleeWeapon_Cooldown>0.8</MeleeWeapon_Cooldown>
 		</statFactors>
 		<reproductive>true</reproductive>
 
@@ -54,7 +53,6 @@
 		<marketValueFactor>1.5</marketValueFactor>
 		<statFactors>
 			<MoveSpeed>1.30</MoveSpeed>
-			<MeleeWeapon_Cooldown>0.65</MeleeWeapon_Cooldown>
 
 		</statFactors>
 		<reproductive>true</reproductive>

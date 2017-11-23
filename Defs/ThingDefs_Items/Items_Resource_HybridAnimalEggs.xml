@@ -91,7 +91,7 @@
 
     <comps>
       <li Class="CompProperties_Hatcher">
-        <hatcherDaysToHatch>3.5</hatcherDaysToHatch>
+        <hatcherDaystoHatch>3.5</hatcherDaystoHatch>
         <hatcherPawn>GR_EldritchChicken</hatcherPawn>
       </li>
     </comps>
@@ -120,7 +120,7 @@
 
     <comps>
       <li Class="CompProperties_Hatcher">
-        <hatcherDaysToHatch>6</hatcherDaysToHatch>
+        <hatcherDaystoHatch>6</hatcherDaystoHatch>
         <hatcherPawn>GR_EldritchReptile</hatcherPawn>
       </li>
     </comps>

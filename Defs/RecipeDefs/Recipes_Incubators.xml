@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<RecipeDefs>
+<Defs>
 
 	<!-- Eldritch Incubators -->
 
@@ -21,7 +21,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EmptyIncubator</li>
+						<li>GR_EmptyIncubator</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -29,7 +29,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>BearGenetic</li>
+						<li>GR_BearGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -46,8 +46,8 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>EmptyIncubator</li>
-				<li>BearGenetic</li>
+				<li>GR_EmptyIncubator</li>
+				<li>GR_BearGenetic</li>
 				<li>GR_EldritchGenetic</li>
 			</thingDefs>
 		</fixedIngredientFilter>
@@ -56,10 +56,7 @@
 		</products>
 		<researchPrerequisite>GR_EldritchGeneticEngineering</researchPrerequisite>
 		<skillRequirements>
-			<li>
-				<skill>Intellectual</skill>
-				<minLevel>8</minLevel>
-			</li>
+			<Intellectual>8</Intellectual>
 		</skillRequirements>
 	</RecipeDef>
 
@@ -79,7 +76,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EmptyIncubator</li>
+						<li>GR_EmptyIncubator</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -87,7 +84,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>BoomalopeGenetic</li>
+						<li>GR_BoomalopeGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -104,8 +101,8 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>EmptyIncubator</li>
-				<li>BoomalopeGenetic</li>
+				<li>GR_EmptyIncubator</li>
+				<li>GR_BoomalopeGenetic</li>
 				<li>GR_EldritchGenetic</li>
 			</thingDefs>
 		</fixedIngredientFilter>
@@ -114,10 +111,7 @@
 		</products>
 		<researchPrerequisite>GR_EldritchGeneticEngineering</researchPrerequisite>
 		<skillRequirements>
-			<li>
-				<skill>Intellectual</skill>
-				<minLevel>8</minLevel>
-			</li>
+			<Intellectual>8</Intellectual>
 		</skillRequirements>
 	</RecipeDef>
 
@@ -137,7 +131,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EmptyIncubator</li>
+						<li>GR_EmptyIncubator</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -145,7 +139,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ChickenGenetic</li>
+						<li>GR_ChickenGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -162,8 +156,8 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>EmptyIncubator</li>
-				<li>ChickenGenetic</li>
+				<li>GR_EmptyIncubator</li>
+				<li>GR_ChickenGenetic</li>
 				<li>GR_EldritchGenetic</li>
 			</thingDefs>
 		</fixedIngredientFilter>
@@ -172,10 +166,7 @@
 		</products>
 		<researchPrerequisite>GR_EldritchGeneticEngineering</researchPrerequisite>
 		<skillRequirements>
-			<li>
-				<skill>Intellectual</skill>
-				<minLevel>8</minLevel>
-			</li>
+			<Intellectual>8</Intellectual>
 		</skillRequirements>
 	</RecipeDef>
 
@@ -195,7 +186,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EmptyIncubator</li>
+						<li>GR_EmptyIncubator</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -203,7 +194,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>InsectoidGenetic</li>
+						<li>GR_InsectoidGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -220,8 +211,8 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>EmptyIncubator</li>
-				<li>InsectoidGenetic</li>
+				<li>GR_EmptyIncubator</li>
+				<li>GR_InsectoidGenetic</li>
 				<li>GR_EldritchGenetic</li>
 			</thingDefs>
 		</fixedIngredientFilter>
@@ -230,10 +221,7 @@
 		</products>
 		<researchPrerequisite>GR_EldritchGeneticEngineering</researchPrerequisite>
 		<skillRequirements>
-			<li>
-				<skill>Intellectual</skill>
-				<minLevel>8</minLevel>
-			</li>
+			<Intellectual>8</Intellectual>
 		</skillRequirements>
 	</RecipeDef>
 
@@ -253,7 +241,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EmptyIncubator</li>
+						<li>GR_EmptyIncubator</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -261,7 +249,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>MuffaloGenetic</li>
+						<li>GR_MuffaloGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -278,8 +266,8 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>EmptyIncubator</li>
-				<li>MuffaloGenetic</li>
+				<li>GR_EmptyIncubator</li>
+				<li>GR_MuffaloGenetic</li>
 				<li>GR_EldritchGenetic</li>
 			</thingDefs>
 		</fixedIngredientFilter>
@@ -288,10 +276,7 @@
 		</products>
 		<researchPrerequisite>GR_EldritchGeneticEngineering</researchPrerequisite>
 		<skillRequirements>
-			<li>
-				<skill>Intellectual</skill>
-				<minLevel>8</minLevel>
-			</li>
+			<Intellectual>8</Intellectual>
 		</skillRequirements>
 	</RecipeDef>
 
@@ -311,7 +296,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EmptyIncubator</li>
+						<li>GR_EmptyIncubator</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -319,7 +304,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ReptilianGenetic</li>
+						<li>GR_ReptilianGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -336,8 +321,8 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>EmptyIncubator</li>
-				<li>ReptilianGenetic</li>
+				<li>GR_EmptyIncubator</li>
+				<li>GR_ReptilianGenetic</li>
 				<li>GR_EldritchGenetic</li>
 			</thingDefs>
 		</fixedIngredientFilter>
@@ -346,10 +331,7 @@
 		</products>
 		<researchPrerequisite>GR_EldritchGeneticEngineering</researchPrerequisite>
 		<skillRequirements>
-			<li>
-				<skill>Intellectual</skill>
-				<minLevel>8</minLevel>
-			</li>
+			<Intellectual>8</Intellectual>
 		</skillRequirements>
 	</RecipeDef>
 	
@@ -369,7 +351,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EmptyIncubator</li>
+						<li>GR_EmptyIncubator</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -377,7 +359,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ThrumboGenetic</li>
+						<li>GR_ThrumboGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -394,8 +376,8 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>EmptyIncubator</li>
-				<li>ThrumboGenetic</li>
+				<li>GR_EmptyIncubator</li>
+				<li>GR_ThrumboGenetic</li>
 				<li>GR_EldritchGenetic</li>
 			</thingDefs>
 		</fixedIngredientFilter>
@@ -404,10 +386,7 @@
 		</products>
 		<researchPrerequisite>GR_EldritchGeneticEngineering</researchPrerequisite>
 		<skillRequirements>
-			<li>
-				<skill>Intellectual</skill>
-				<minLevel>8</minLevel>
-			</li>
+			<Intellectual>8</Intellectual>
 		</skillRequirements>
 	</RecipeDef>
 	
@@ -427,7 +406,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EmptyIncubator</li>
+						<li>GR_EmptyIncubator</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -435,7 +414,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>WolfGenetic</li>
+						<li>GR_WolfGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -452,8 +431,8 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>EmptyIncubator</li>
-				<li>WolfGenetic</li>
+				<li>GR_EmptyIncubator</li>
+				<li>GR_WolfGenetic</li>
 				<li>GR_EldritchGenetic</li>
 			</thingDefs>
 		</fixedIngredientFilter>
@@ -462,11 +441,8 @@
 		</products>
 		<researchPrerequisite>GR_EldritchGeneticEngineering</researchPrerequisite>
 		<skillRequirements>
-			<li>
-				<skill>Intellectual</skill>
-				<minLevel>8</minLevel>
-			</li>
+			<Intellectual>8</Intellectual>
 		</skillRequirements>
 	</RecipeDef>
 
-</RecipeDefs>
+</Defs>

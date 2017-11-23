@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<RecipeDefs>
+<Defs>
 
 
 
@@ -14,7 +14,7 @@
 		<workAmount>500</workAmount>
 		<workSkill>Intellectual</workSkill>
 		<recipeUsers>
-			<li>GeneticExtractionTable</li>	  
+			<li>GR_GeneticExtractionTable</li>	  
 		</recipeUsers>	
 		<ingredients>
 			<li>
@@ -53,10 +53,7 @@
 			<GR_EldritchGenetic>1</GR_EldritchGenetic>
 		</products>
 		<skillRequirements>
-			<li>
-				<skill>Intellectual</skill>
-				<minLevel>8</minLevel>
-			</li>
+			<Intellectual>8</Intellectual>
 		</skillRequirements>
 	</RecipeDef>
 
@@ -65,4 +62,4 @@
 
 
 
-</RecipeDefs>
+</Defs>
