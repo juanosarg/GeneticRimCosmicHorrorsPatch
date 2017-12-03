@@ -220,7 +220,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_EldritchBoomalope</defName>
 		<label>formless boomalope of Tsathoggua</label>
-		<description>This polymorphic entity is made of light brown ichor and looks like amorphous goo. It seems to be extremely resilient and very difficult to dispatch. Its pelt seems to be powerfully acidic in substance and can dissolve human flesh with even a slight touch.\n\nUseful abilities: Explodes on death with a very powerful psionic blast.</description>
+		<description>This polymorphic entity is made of light brown ichor and looks like amorphous goo. It seems to be extremely resilient and very difficult to dispatch. Its pelt seems to be powerfully acidic in substance and can dissolve human flesh with even a slight touch.\n\nUseful abilities: Explodes on death with a very powerful psionic blast. Decent chemfuel production.</description>
 
 
 		<statBases>
@@ -230,6 +230,15 @@
 			<MeatAmount>20</MeatAmount>
 
 		</statBases>
+	<comps>
+
+	  <li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+			<resourceDef>Chemfuel</resourceDef>
+			<gatheringIntervalDays>2</gatheringIntervalDays>
+			<resourceAmount>22</resourceAmount>
+			<customResourceString>ChemfuelProd</customResourceString>
+      </li>
+    </comps>  
 		<tools>
 			<li>
 			    <label>amoebic tentacle</label>
