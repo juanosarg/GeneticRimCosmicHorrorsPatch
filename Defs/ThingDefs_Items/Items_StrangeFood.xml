@@ -5,7 +5,7 @@
 
 
   
-  <ThingDef ParentName="RawCHFoodBase">
+  <ThingDef ParentName="ROM_RawCHFoodBase">
     <defName>GR_ROM_RawCHFood_FormlessMeat</defName>
     <label>formless spawn meat</label>
     <description>Raw meat from a formless spawn of Tsathoggua. Or... or at least a boomalope abomination that *looked* similar. Hard to know with these things.</description>
