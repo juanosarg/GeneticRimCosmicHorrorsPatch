@@ -13,6 +13,8 @@
       <texPath>Things/Item/GR_RawCHFood_FormlessMeat</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
+	    <tradeability>Sellable</tradeability>
+
     <statBases>
       <MarketValue>1.5</MarketValue>
     </statBases>

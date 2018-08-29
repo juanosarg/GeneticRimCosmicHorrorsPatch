@@ -11,6 +11,8 @@
       <texPath>Things/Item/GR_DarkYoungWoodLog</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
+	    <tradeability>Sellable</tradeability>
+
     <equippedAngleOffset>-20</equippedAngleOffset>
     <soundInteract>Wood_Drop</soundInteract>
     <soundDrop>Wood_Drop</soundDrop>
@@ -32,7 +34,7 @@
       <color>(74,60,102)</color>
       <constructEffect>ConstructWood</constructEffect>
       <appearance>Planks</appearance>
-      <soundImpactStuff>BulletImpactWood</soundImpactStuff>
+      <soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
       <soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
       <soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
 	  <statOffsets>
@@ -48,7 +50,6 @@
         <MeleeWeapon_CooldownMultiplier>0.9</MeleeWeapon_CooldownMultiplier>
       </statFactors>
     </stuffProps>
-    <isBodyPartOrImplant>true</isBodyPartOrImplant>
     <thingCategories>
       <li>ResourcesRaw</li>
     </thingCategories>
@@ -75,15 +76,18 @@
     <graphicData>
       <texPath>Things/Item/GR_EldritchInsectJelly</texPath>
     </graphicData>
+	    <tradeability>Sellable</tradeability>
+
     <socialPropernessMatters>true</socialPropernessMatters>
     <statBases>
       <MarketValue>10</MarketValue>
       <Mass>0.025</Mass>
+	        <Nutrition>0.15</Nutrition>
+
     </statBases>
     <ingestible>
       <foodType>AnimalProduct</foodType>
       <preferability>MealFine</preferability>
-      <nutrition>0.15</nutrition>
       <joy>0.15</joy>
       <joyKind>Gluttonous</joyKind>
       <ingestEffect>EatVegetarian</ingestEffect>

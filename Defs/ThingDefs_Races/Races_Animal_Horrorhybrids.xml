@@ -74,7 +74,7 @@
 			<power>6</power>
 			<cooldownTime>1.65</cooldownTime>
 			<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-			<commonality>0.2</commonality>
+			<chanceFactor>0.2</chanceFactor>
 		  </li>
 		</tools>
 		
@@ -88,7 +88,7 @@
 		</comps>
 		<race>
 			<useLeatherFrom>ROM_DarkYoung</useLeatherFrom>
-			<useMeatFrom>GrizzlyBear</useMeatFrom>
+			<useMeatFrom>Bear_Grizzly</useMeatFrom>
 			<herdAnimal>true</herdAnimal>
 			<predator>true</predator>
 			<body>ROM_DarkYoungBody</body>
@@ -99,7 +99,7 @@
 			<gestationPeriodDays>50</gestationPeriodDays>
 			<wildness>0.80</wildness>
 			<lifeExpectancy>160</lifeExpectancy>
-			<trainableIntelligence>Advanced</trainableIntelligence>
+			<trainability>Advanced</trainability>
 			<manhunterOnTameFailChance>0.018</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>1</manhunterOnDamageChance>
 			<lifeStageAges>
@@ -150,7 +150,7 @@
 		<race>GR_EldritchBear</race>
 		<combatPower>220</combatPower>
 		<canArriveManhunter>false</canArriveManhunter>
-		<wildSpawn_spawnWild>false</wildSpawn_spawnWild>
+    <ecoSystemWeight>1</ecoSystemWeight>
 		<aiAvoidCover>true</aiAvoidCover>
 
 
@@ -164,10 +164,7 @@
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
-					<drawSize>1.4</drawSize>
-				</dessicatedBodyGraphicData>
+			
 			</li>
 			<li>
 				<bodyGraphicData>
@@ -178,10 +175,7 @@
 						<offset>(0,0,-0.25)</offset>
 					</shadowData>
 				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
-					<drawSize>2</drawSize>
-				</dessicatedBodyGraphicData>
+				
 			</li>
 			<li>
 				<bodyGraphicData>
@@ -192,10 +186,7 @@
 						<offset>(0,0,-0.3)</offset>
 					</shadowData>
 				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
-					<drawSize>2.7</drawSize>
-				</dessicatedBodyGraphicData>
+				
 
 			</li>
 			<li>
@@ -207,10 +198,7 @@
 						<offset>(0,0,-0.3)</offset>
 					</shadowData>
 				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
-					<drawSize>3.5</drawSize>
-				</dessicatedBodyGraphicData>
+			
 
 			</li>
 		</lifeStages>
@@ -266,25 +254,15 @@
 				<power>13</power>
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-				<commonality>0.2</commonality>
+				<chanceFactor>0.2</chanceFactor>
 			</li>
 		</tools>
 		
 
 		<race>
 			<deathActionWorkerClass>ExplosionTypes.DeathActionWorker_PsionicExplosion</deathActionWorkerClass>
-			<leatherColor>(163,137,91)</leatherColor>
-			<leatherLabel>formless boomalope shiftskin</leatherLabel>
-			<leatherCommonalityFactor>0.01</leatherCommonalityFactor>
-			<leatherStatFactors>
-				<ArmorRating_Sharp>2.0</ArmorRating_Sharp>
-				<ArmorRating_Blunt>3.0</ArmorRating_Blunt>
-				<ArmorRating_Heat>1.0</ArmorRating_Heat>
-				<ArmorRating_Electric>3.0</ArmorRating_Electric>
-				<Insulation_Cold>0.75</Insulation_Cold>
-				<Insulation_Heat>0.75</Insulation_Heat>
-			</leatherStatFactors>
-			<leatherMarketValueFactor>7.5</leatherMarketValueFactor>			
+			<leatherDef>GR_Shiftskin</leatherDef>
+					
 			<useMeatFrom>Boomalope</useMeatFrom>
 			<herdAnimal>true</herdAnimal>
 			<predator>false</predator>
@@ -296,7 +274,7 @@
 			<gestationPeriodDays>47</gestationPeriodDays>
 			<wildness>0.80</wildness>
 			<lifeExpectancy>180</lifeExpectancy>
-			<trainableIntelligence>Intermediate</trainableIntelligence>
+			<trainability>Intermediate</trainability>
 			<manhunterOnTameFailChance>0.018</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>1</manhunterOnDamageChance>
 			<lifeStageAges>
@@ -345,7 +323,7 @@
 		<race>GR_EldritchBoomalope</race>
 		<combatPower>200</combatPower>
 		<canArriveManhunter>false</canArriveManhunter>
-		<wildSpawn_spawnWild>false</wildSpawn_spawnWild>
+		<ecoSystemWeight>1</ecoSystemWeight>
 		<aiAvoidCover>true</aiAvoidCover>
 
 
@@ -359,10 +337,7 @@
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
-					<drawSize>1.4</drawSize>
-				</dessicatedBodyGraphicData>
+			
 			</li>
 			<li>
 				<bodyGraphicData>
@@ -373,10 +348,7 @@
 						<offset>(0,0,-0.25)</offset>
 					</shadowData>
 				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
-					<drawSize>2</drawSize>
-				</dessicatedBodyGraphicData>
+			
 			</li>
 			<li>
 				<bodyGraphicData>
@@ -387,10 +359,7 @@
 						<offset>(0,0,-0.3)</offset>
 					</shadowData>
 				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
-					<drawSize>2.7</drawSize>
-				</dessicatedBodyGraphicData>
+			
 
 			</li>
 			<li>
@@ -402,10 +371,7 @@
 						<offset>(0,0,-0.3)</offset>
 					</shadowData>
 				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
-					<drawSize>3.5</drawSize>
-				</dessicatedBodyGraphicData>
+		
 
 			</li>
 		</lifeStages>
@@ -459,7 +425,7 @@
 			</li>
 		</comps>
 		<race>
-			<bloodDef>ROM_FilthBloodMiGo</bloodDef>		
+			<bloodDef>ROM_Filth_BloodMiGo</bloodDef>		
 			<useLeatherFrom>ROM_MiGo</useLeatherFrom>
 			<useMeatFrom>Chicken</useMeatFrom>
 			<herdAnimal>true</herdAnimal>
@@ -472,7 +438,7 @@
 			<gestationPeriodDays>7</gestationPeriodDays>
 			<wildness>0.80</wildness>
 			<lifeExpectancy>120</lifeExpectancy>
-			<trainableIntelligence>None</trainableIntelligence>
+			<trainability>None</trainability>
 			<manhunterOnTameFailChance>0.018</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>1</manhunterOnDamageChance>
 			<lifeStageAges>
@@ -526,7 +492,7 @@
 		<race>GR_EldritchChicken</race>
 		<combatPower>80</combatPower>
 		<canArriveManhunter>false</canArriveManhunter>
-		<wildSpawn_spawnWild>false</wildSpawn_spawnWild>
+		<ecoSystemWeight>1</ecoSystemWeight>
 		<aiAvoidCover>true</aiAvoidCover>
 
 
@@ -540,10 +506,7 @@
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
-					<drawSize>1.8</drawSize>
-				</dessicatedBodyGraphicData>
+		
 			</li>
 			<li>
 				<bodyGraphicData>
@@ -554,10 +517,7 @@
 						<offset>(0,0,-0.25)</offset>
 					</shadowData>
 				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
-					<drawSize>2</drawSize>
-				</dessicatedBodyGraphicData>
+			
 			</li>
 			<li>
 				<bodyGraphicData>
@@ -568,10 +528,7 @@
 						<offset>(0,0,-0.3)</offset>
 					</shadowData>
 				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
-					<drawSize>2.2</drawSize>
-				</dessicatedBodyGraphicData>
+			
 
 			</li>
 			<li>
@@ -583,10 +540,7 @@
 						<offset>(0,0,-0.3)</offset>
 					</shadowData>
 				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
-					<drawSize>2.4</drawSize>
-				</dessicatedBodyGraphicData>
+		
 
 			</li>
 		</lifeStages>
@@ -654,7 +608,7 @@
 			</li>
 		</comps>
 		<race>
-			<bloodDef>ROM_FilthBloodDeepOne</bloodDef>
+			<bloodDef>ROM_Filth_BloodDeepOne</bloodDef>
 			<useLeatherFrom>ROM_Chthonian</useLeatherFrom>
 			<useMeatFrom>Megaspider</useMeatFrom>
 			<herdAnimal>false</herdAnimal>
@@ -667,7 +621,7 @@
 			<gestationPeriodDays>20</gestationPeriodDays>
 			<wildness>0.80</wildness>
 			<lifeExpectancy>80</lifeExpectancy>
-			<trainableIntelligence>Advanced</trainableIntelligence>
+			<trainability>Advanced</trainability>
 			<manhunterOnTameFailChance>0.018</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>1</manhunterOnDamageChance>
 			<lifeStageAges>
@@ -720,7 +674,7 @@
 		<race>GR_EldritchInsectoid</race>
 		<combatPower>80</combatPower>
 		<canArriveManhunter>false</canArriveManhunter>
-		<wildSpawn_spawnWild>false</wildSpawn_spawnWild>
+		<ecoSystemWeight>1</ecoSystemWeight>
 		<aiAvoidCover>true</aiAvoidCover>
 
 
@@ -734,10 +688,7 @@
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
-					<drawSize>1.8</drawSize>
-				</dessicatedBodyGraphicData>
+			
 			</li>
 			<li>
 				<bodyGraphicData>
@@ -748,10 +699,7 @@
 						<offset>(0,0,-0.25)</offset>
 					</shadowData>
 				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
-					<drawSize>2</drawSize>
-				</dessicatedBodyGraphicData>
+			
 			</li>
 			<li>
 				<bodyGraphicData>
@@ -762,10 +710,7 @@
 						<offset>(0,0,-0.3)</offset>
 					</shadowData>
 				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
-					<drawSize>2.2</drawSize>
-				</dessicatedBodyGraphicData>
+			
 
 			</li>
 			<li>
@@ -777,10 +722,7 @@
 						<offset>(0,0,-0.3)</offset>
 					</shadowData>
 				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
-					<drawSize>2.4</drawSize>
-				</dessicatedBodyGraphicData>
+			
 
 			</li>
 		</lifeStages>
@@ -800,7 +742,6 @@
 			<MeatAmount>20</MeatAmount>
 			<ArmorRating_Blunt>0.25</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.25</ArmorRating_Sharp>
-			<ComfyTemperatureMin>-80</ComfyTemperatureMin>
 			<ComfyTemperatureMax>80</ComfyTemperatureMax>
 		</statBases>
 		<tools>
@@ -846,7 +787,7 @@
 			</li>
 		</comps>
 		<race>
-			<bloodDef>FilthBlood</bloodDef>
+			<bloodDef>Filth_Blood</bloodDef>
 			<useLeatherFrom>ROM_StarVampire</useLeatherFrom>
 			<useMeatFrom>Muffalo</useMeatFrom>
 			<herdAnimal>false</herdAnimal>
@@ -859,7 +800,7 @@
 			<gestationPeriodDays>28</gestationPeriodDays>
 			<wildness>0.80</wildness>
 			<lifeExpectancy>180</lifeExpectancy>
-			<trainableIntelligence>Intermediate</trainableIntelligence>
+			<trainability>Intermediate</trainability>
 			<manhunterOnTameFailChance>0.018</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>1</manhunterOnDamageChance>
 			<nuzzleMtbHours>120</nuzzleMtbHours>
@@ -914,7 +855,7 @@
 		<race>GR_EldritchMuffalo</race>
 		<combatPower>180</combatPower>
 		<canArriveManhunter>false</canArriveManhunter>
-		<wildSpawn_spawnWild>false</wildSpawn_spawnWild>
+		<ecoSystemWeight>1</ecoSystemWeight>
 		<aiAvoidCover>true</aiAvoidCover>
 
 
@@ -928,10 +869,7 @@
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
-					<drawSize>2.5</drawSize>
-				</dessicatedBodyGraphicData>
+	
 			</li>
 			<li>
 				<bodyGraphicData>
@@ -942,10 +880,7 @@
 						<offset>(0,0,-0.25)</offset>
 					</shadowData>
 				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
-					<drawSize>2.4</drawSize>
-				</dessicatedBodyGraphicData>
+			
 			</li>
 			<li>
 				<bodyGraphicData>
@@ -956,10 +891,7 @@
 						<offset>(0,0,-0.3)</offset>
 					</shadowData>
 				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
-					<drawSize>2.8</drawSize>
-				</dessicatedBodyGraphicData>
+			
 
 			</li>
 			<li>
@@ -971,10 +903,7 @@
 						<offset>(0,0,-0.3)</offset>
 					</shadowData>
 				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
-					<drawSize>3.2</drawSize>
-				</dessicatedBodyGraphicData>
+			
 
 			</li>
 		</lifeStages>
@@ -1021,7 +950,7 @@
 			<power>1</power>
 			<cooldownTime>0.65</cooldownTime>
 			<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-			<commonality>0.1</commonality>
+			<chanceFactor>0.1</chanceFactor>
 
 		  </li>
 		</tools>
@@ -1039,7 +968,7 @@
 			</li>
 		</comps>
 		<race>
-			<bloodDef>ROM_FilthBloodDeepOne</bloodDef>
+			<bloodDef>ROM_Filth_BloodDeepOne</bloodDef>
 			<useLeatherFrom>ROM_Chthonian</useLeatherFrom>
 			<useMeatFrom>Cobra</useMeatFrom>
 			<herdAnimal>false</herdAnimal>
@@ -1054,7 +983,7 @@
 			<gestationPeriodDays>17.5</gestationPeriodDays>
 			<wildness>0.80</wildness>
 			<lifeExpectancy>120</lifeExpectancy>
-			<trainableIntelligence>None</trainableIntelligence>
+			<trainability>None</trainability>
 			<manhunterOnTameFailChance>0.018</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>1</manhunterOnDamageChance>
 
@@ -1105,7 +1034,7 @@
 		<race>GR_EldritchReptile</race>
 		<combatPower>125</combatPower>
 		<canArriveManhunter>false</canArriveManhunter>
-		<wildSpawn_spawnWild>false</wildSpawn_spawnWild>
+		<ecoSystemWeight>1</ecoSystemWeight>
 		<aiAvoidCover>true</aiAvoidCover>
 
 
@@ -1119,10 +1048,7 @@
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSnake</texPath>
-					<drawSize>1.5</drawSize>
-				</dessicatedBodyGraphicData>
+			
 			</li>
 			<li>
 				<bodyGraphicData>
@@ -1133,10 +1059,7 @@
 						<offset>(0,0,-0.25)</offset>
 					</shadowData>
 				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSnake</texPath>
-					<drawSize>1.75</drawSize>
-				</dessicatedBodyGraphicData>
+			
 			</li>
 			<li>
 				<bodyGraphicData>
@@ -1147,10 +1070,7 @@
 						<offset>(0,0,-0.3)</offset>
 					</shadowData>
 				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSnake</texPath>
-					<drawSize>2</drawSize>
-				</dessicatedBodyGraphicData>
+		
 
 			</li>
 			<li>
@@ -1162,11 +1082,7 @@
 						<offset>(0,0,-0.3)</offset>
 					</shadowData>
 				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSnake</texPath>
-					<drawSize>3</drawSize>
-				</dessicatedBodyGraphicData>
-
+			
 			</li>
 		</lifeStages>
 	</PawnKindDef>
@@ -1175,9 +1091,7 @@
 	<ThingDef ParentName="AnimalThingBase" ADogSaidBody="Arms">
 		<defName>GR_EldritchThrumbo</defName>
 		<label>cthrumbo</label>
-		<description>Iä! Iä! Cthrumbo fhtagn! Ph'nglui mglw'nfah Cthrumbo Rimworld wgah'nagl fhtagn! A gigantic, squid-like creature that feeds on fear and nightmares. Legends say that an Eldritch Cthrumbo is really the wisest creature in the universe - it simply would melt the minds of everyone near it should it choose to speak.\n\nUseful abilities: Really powerful in combat. Like, seriously. </description>
-
-
+		<description>Iä! Iä! Cthrumbo fhtagn! Ph'nglui mglw'nfah Cthrumbo Rimworld wgah'nagl fhtagn! A gigantic, squid-like creature that feeds on fear and nightmares. Legends say that an Eldritch Cthrumbo is really the wisest creature in the universe - it simply would melt the minds of everyone near it should it choose to speak.\n\nUseful abilities: Really powerful in combat. Like, seriously.</description>
 		<statBases>
 			<MoveSpeed>5.25</MoveSpeed>
 			<ComfyTemperatureMin>-65</ComfyTemperatureMin>
@@ -1215,14 +1129,14 @@
 			<power>11</power>
 			<cooldownTime>1.65</cooldownTime>
 			<linkedBodyPartsGroup>FullHead</linkedBodyPartsGroup>
-			<commonality>0.01</commonality>
+			<chanceFactor>0.01</chanceFactor>
 
 		  </li>
 		</tools>
 		
 
 		<race>
-			<bloodDef>ROM_FilthBloodDeepOne</bloodDef>
+			<bloodDef>ROM_Filth_BloodDeepOne</bloodDef>
 			<useLeatherFrom>ROM_DeepOneGreat</useLeatherFrom>
 			<useMeatFrom>Thrumbo</useMeatFrom>
 			<herdAnimal>true</herdAnimal>
@@ -1235,7 +1149,7 @@
 			<gestationPeriodDays>17.5</gestationPeriodDays>
 			<wildness>0.80</wildness>
 			<lifeExpectancy>2500</lifeExpectancy>
-			<trainableIntelligence>Advanced</trainableIntelligence>
+			<trainability>Advanced</trainability>
 			<manhunterOnTameFailChance>0.018</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>1</manhunterOnDamageChance>
 
@@ -1286,7 +1200,7 @@
 		<race>GR_EldritchThrumbo</race>
 		<combatPower>650</combatPower>
 		<canArriveManhunter>false</canArriveManhunter>
-		<wildSpawn_spawnWild>false</wildSpawn_spawnWild>
+		<ecoSystemWeight>1</ecoSystemWeight>
 		<aiAvoidCover>true</aiAvoidCover>
 
 
@@ -1300,10 +1214,7 @@
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-					<drawSize>3</drawSize>
-				</dessicatedBodyGraphicData>
+			
 			</li>
 			<li>
 				<bodyGraphicData>
@@ -1314,10 +1225,7 @@
 						<offset>(0,0,-0.25)</offset>
 					</shadowData>
 				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-					<drawSize>4</drawSize>
-				</dessicatedBodyGraphicData>
+			
 				<butcherBodyPart>
 					<bodyPartGroup>FullHead</bodyPartGroup>
 					<thing>ThrumboHorn</thing>
@@ -1332,10 +1240,7 @@
 						<offset>(0,0,-0.3)</offset>
 					</shadowData>
 				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-					<drawSize>4</drawSize>
-				</dessicatedBodyGraphicData>
+			
 				<butcherBodyPart>
 					<bodyPartGroup>FullHead</bodyPartGroup>
 					<thing>ThrumboHorn</thing>
@@ -1351,10 +1256,7 @@
 						<offset>(0,0,-0.3)</offset>
 					</shadowData>
 				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-					<drawSize>4</drawSize>
-				</dessicatedBodyGraphicData>
+			
 				<butcherBodyPart>
 					<bodyPartGroup>FullHead</bodyPartGroup>
 					<thing>ThrumboHorn</thing>
@@ -1405,9 +1307,9 @@
 		
 
 		<race>
-			<bloodDef>ROM_FilthBloodShoggoth</bloodDef>
-			<useLeatherFrom>ROM_Shoggoth</useLeatherFrom>
-			<useMeatFrom>WolfTimber</useMeatFrom>
+			<bloodDef>ROM_Filth_BloodShoggoth</bloodDef>
+			<useLeatherFrom>Wolf_Timber</useLeatherFrom>
+			<useMeatFrom>Wolf_Timber</useMeatFrom>
 			<herdAnimal>false</herdAnimal>
 			<body>GR_BirdWithTeeth</body>
 			<baseHungerRate>2</baseHungerRate>
@@ -1419,7 +1321,7 @@
     
       <gestationPeriodDays>22.5</gestationPeriodDays>
       <nameOnTameChance>1</nameOnTameChance>
-      <trainableIntelligence>Advanced</trainableIntelligence>
+      <trainability>Advanced</trainability>
       <wildness>0.8</wildness>
       <nuzzleMtbHours>120</nuzzleMtbHours>
 			
@@ -1474,7 +1376,7 @@
 		<race>GR_EldritchWolf</race>
 		<combatPower>150</combatPower>
 		<canArriveManhunter>false</canArriveManhunter>
-		<wildSpawn_spawnWild>false</wildSpawn_spawnWild>
+		<ecoSystemWeight>1</ecoSystemWeight>
 		<aiAvoidCover>true</aiAvoidCover>
 
 
@@ -1488,10 +1390,7 @@
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-					<drawSize>2</drawSize>
-				</dessicatedBodyGraphicData>
+			
 			</li>
 			<li>
 				<bodyGraphicData>
@@ -1502,10 +1401,7 @@
 						<offset>(0,0,-0.25)</offset>
 					</shadowData>
 				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-					<drawSize>2.5</drawSize>
-				</dessicatedBodyGraphicData>
+			
 	
 			</li>
 			<li>
@@ -1517,10 +1413,7 @@
 						<offset>(0,0,-0.3)</offset>
 					</shadowData>
 				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-					<drawSize>3</drawSize>
-				</dessicatedBodyGraphicData>
+			
 			
 
 			</li>
@@ -1533,10 +1426,7 @@
 						<offset>(0,0,-0.3)</offset>
 					</shadowData>
 				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-					<drawSize>3.5</drawSize>
-				</dessicatedBodyGraphicData>
+		
 		
 
 			</li>

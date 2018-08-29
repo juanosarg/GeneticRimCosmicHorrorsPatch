@@ -21,15 +21,15 @@
 				<filter>
 
 					<thingDefs>
-						<li>ROM_DarkYoung_Corpse</li>
-						<li>ROM_Chthonian_Corpse</li>
-						<li>ROM_DeepOne_Corpse</li>
-						<li>ROM_DeepOneGreat_Corpse</li>
-						<li>ROM_ChthonianLarva_Corpse</li>
-						<li>ROM_MiGo_Corpse</li>
-						<li>ROM_Shoggoth_Corpse</li>
-						<li>ROM_Cthulhid_Corpse</li>
-						<li>ROM_StarVampire_Corpse</li>
+						<li>Corpse_ROM_DarkYoung</li>
+						<li>Corpse_ROM_Chthonian</li>
+						<li>Corpse_ROM_DeepOne</li>
+						<li>Corpse_ROM_DeepOneGreat</li>
+						<li>Corpse_ROM_ChthonianLarva</li>
+						<li>Corpse_ROM_MiGo</li>
+						<li>Corpse_ROM_Shoggoth</li>
+						<li>Corpse_ROM_Cthulhid</li>
+						<li>Corpse_ROM_StarVampire</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -38,15 +38,15 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>ROM_DarkYoung_Corpse</li>
-				<li>ROM_Chthonian_Corpse</li>
-				<li>ROM_DeepOne_Corpse</li>
-				<li>ROM_DeepOneGreat_Corpse</li>
-				<li>ROM_ChthonianLarva_Corpse</li>
-				<li>ROM_MiGo_Corpse</li>
-				<li>ROM_Shoggoth_Corpse</li>
-				<li>ROM_Cthulhid_Corpse</li>
-				<li>ROM_StarVampire_Corpse</li>
+				<li>Corpse_ROM_DarkYoung</li>
+						<li>Corpse_ROM_Chthonian</li>
+						<li>Corpse_ROM_DeepOne</li>
+						<li>Corpse_ROM_DeepOneGreat</li>
+						<li>Corpse_ROM_ChthonianLarva</li>
+						<li>Corpse_ROM_MiGo</li>
+						<li>Corpse_ROM_Shoggoth</li>
+						<li>Corpse_ROM_Cthulhid</li>
+						<li>Corpse_ROM_StarVampire</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>

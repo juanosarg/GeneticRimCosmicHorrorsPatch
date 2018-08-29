@@ -7,9 +7,9 @@
       <texPath>Things/Item/GR_EldritchEgg</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
+	
     <ingestible>
       <foodType>AnimalProduct</foodType>
-      <nutrition>0.3</nutrition>
       <ingestEffect>EatMeat</ingestEffect>
       <ingestSound>RawMeat_Eat</ingestSound>
       <tasteThought>AteRawFood</tasteThought>
@@ -23,6 +23,8 @@
 
     <socialPropernessMatters>true</socialPropernessMatters>
     <statBases>
+	      <Nutrition>0.3</Nutrition>
+
       <Mass>0.15</Mass>
 			<MaxHitPoints>20</MaxHitPoints>
 			<DeteriorationRate>2</DeteriorationRate>
@@ -41,8 +43,7 @@
         <daysToRotStart>25</daysToRotStart>
 				<rotDestroys>true</rotDestroys>
 			</li>
-			<li Class="CompProperties_FoodPoisoningChance">
-				<humanlikeOnly>true</humanlikeOnly>
+			<li Class="CompProperties_FoodPoisonable">
 			</li>
     </comps>
   </ThingDef>
@@ -56,8 +57,7 @@
       <li>ROM_StrangeMeatRaw</li>
     </thingCategories>
 		<comps>
-			<li Class="CompProperties_FoodPoisoningChance">
-				<humanlikeOnly>true</humanlikeOnly>
+			<li Class="CompProperties_FoodPoisonable">
 			</li>
 			<li Class="CompProperties_TemperatureRuinable">
 				<minSafeTemperature>0</minSafeTemperature>
@@ -73,7 +73,8 @@
     <defName>GR_EldritchChickenEggUnfertilized</defName>
     <label>chicken of Mi-go egg (unfert.)</label>
     <description>Unfertilized chicken of Mi-go egg. It can be eaten raw, but it's much, much better cooked. The purple shell is incredibly disconcerting.</description>
-   
+       <tradeability>Sellable</tradeability>
+
     <statBases>
       <MarketValue>9.0</MarketValue>
     </statBases>
@@ -84,6 +85,7 @@
     <defName>GR_EldritchChickenEggFertilized</defName>
     <label>chicken of Mi-go egg (fert.)</label>
     <description>Fertilized chicken of Mi-go egg. It can be eaten raw, but it's much, much better cooked. The purple shell is incredibly disconcerting. If all goes well, it should hatch into a chicken of Mi-go.</description>
+    <tradeability>None</tradeability>
 
     <statBases>
       <MarketValue>9.0</MarketValue>
@@ -102,7 +104,8 @@
     <defName>GR_EldritchReptileEggUnfertilized</defName>
     <label>snake of Yig egg (unfert.)</label>
     <description>Unfertilized snake of Yig egg. It can be eaten raw, but it's much, much better cooked. The purple shell is incredibly disconcerting.</description>
-   
+       <tradeability>Sellable</tradeability>
+
     <statBases>
       <MarketValue>9.0</MarketValue>
     </statBases>
@@ -113,6 +116,7 @@
     <defName>GR_EldritchReptileEggFertilized</defName>
     <label>snake of Yig egg (fert.)</label>
     <description>Fertilized snake of Yig egg. It can be eaten raw, but it's much, much better cooked. The purple shell is incredibly disconcerting. If all goes well, it should hatch into an snake of Yig egg.</description>
+    <tradeability>None</tradeability>
 
     <statBases>
       <MarketValue>9.0</MarketValue>

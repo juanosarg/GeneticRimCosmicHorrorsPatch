@@ -5,7 +5,7 @@
   
 
   
-  <DamageDef ParentName="LocalInjuryBase">
+  <DamageDef>
     <defName>GR_PsionicExplosion</defName>
     <label>psionic explosion</label>
 	<externalViolence>false</externalViolence>	
@@ -13,7 +13,7 @@
     <harmsHealth>false</harmsHealth>	
 	<hediff>ROM_Psionic</hediff>
     <impactSoundType>Electric</impactSoundType>
-    <armorCategory>Electric</armorCategory>
+    <armorCategory>Heat</armorCategory>
 	<workerClass>CosmicHorror.DamageWorker_CranialPressure</workerClass>
 	<deathMessage>{0} has died from psychic shock.</deathMessage>
   </DamageDef>

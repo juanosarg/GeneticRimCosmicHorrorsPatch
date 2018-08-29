@@ -8,7 +8,8 @@
     <defName>GR_EldritchGenetic</defName>
     <label>eldritch genetic material</label>
     <description>A vial of genetic material extracted from an eldritch beast.</description>
-    
+        <tradeability>None</tradeability>
+
     <graphicData>
             <texPath>Things/Item/GR_geneticmaterialsEldritch</texPath>
 

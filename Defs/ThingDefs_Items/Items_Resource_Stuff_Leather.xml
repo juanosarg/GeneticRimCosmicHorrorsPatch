@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+  <!--========== Basic leathers ============-->
+
+  <ThingDef ParentName="LeatherBase">
+    <defName>GR_Shiftskin</defName>
+    <label>formless boomalope shiftskin</label>
+    <graphicData>
+      <color>(163,137,91)</color>
+    </graphicData>
+    <stuffProps>
+      <color>(163,137,91)</color>
+      <commonality>0.001</commonality>
+    </stuffProps>
+	 <statBases>
+      <MarketValue>7.5</MarketValue>
+      <StuffPower_Armor_Sharp>2.0</StuffPower_Armor_Sharp>
+				<StuffPower_Armor_Blunt>3.0</StuffPower_Armor_Blunt>
+				<StuffPower_Armor_Heat>1.0</StuffPower_Armor_Heat>
+				<StuffPower_Insulation_Cold>0.75</StuffPower_Insulation_Cold>
+				<StuffPower_Insulation_Heat>0.75</StuffPower_Insulation_Heat>
+    </statBases>
+  </ThingDef>
+
+  
+
+</Defs>
