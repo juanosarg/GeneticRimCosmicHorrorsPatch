@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[@Name = "GR_LegImplants"]/recipeUsers</xpath>
+		<value>
+			<li>GR_EldritchBear</li>		
+			<li>GR_EldritchChicken</li>
+			<li>GR_EldritchMuffalo</li>
+			<li>GR_EldritchThrumbo</li>
+			<li>GR_EldritchWolf</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[@Name = "GR_LegImplants"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>ROM_LegFirst</li>
+			<li>ROM_LegSecond</li>
+			<li>ROM_LegThird</li>
+		</value>
+	</Operation>
+	
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[@Name = "GR_TailImplants"]/recipeUsers</xpath>
+		<value>
+			<li>GR_EldritchWolf</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[@Name = "GR_EyeImplants"]/recipeUsers</xpath>
+		<value>
+			<li>GR_EldritchBear</li>
+			<li>GR_EldritchBoomalope</li>
+			<li>GR_EldritchInsectoid</li>
+			<li>GR_EldritchMuffalo</li>
+			<li>GR_EldritchReptile</li>
+			<li>GR_EldritchThrumbo</li>
+			<li>GR_EldritchWolf</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[@Name = "GR_EyeImplants"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>ROM_Eye</li>
+			<li>ROM_EyeSecond</li>
+			<li>ROM_EyeThird</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[@Name = "GR_EarImplants"]/recipeUsers</xpath>
+		<value>
+			<li>GR_EldritchMuffalo</li>
+			<li>GR_EldritchThrumbo</li>
+		</value>
+	</Operation>
+		<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[@Name = "GR_EarImplants"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>ROM_Internal_LeftEar</li>
+			<li>ROM_Internal_RightEar</li>
+			
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[@Name = "GR_NoseImplants"]/recipeUsers</xpath>
+		<value>
+			<li>GR_EldritchBoomalope</li>
+			<li>GR_EldritchMuffalo</li>
+			<li>GR_EldritchReptile</li>
+			<li>GR_EldritchThrumbo</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[@Name = "GR_JawImplants"]/recipeUsers</xpath>
+		<value>
+			<li>GR_EldritchBear</li>
+			<li>GR_EldritchBoomalope</li>
+			<li>GR_EldritchInsectoid</li>
+			<li>GR_EldritchMuffalo</li>
+			<li>GR_EldritchThrumbo</li>
+			<li>GR_EldritchWolf</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[@Name = "GR_JawImplants"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>ROM_Maw</li>
+		</value>
+	</Operation>
+	
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[@Name = "GR_SpineImplants"]/recipeUsers</xpath>
+		<value>
+			<li>GR_EldritchMuffalo</li>
+			<li>GR_EldritchThrumbo</li>
+			<li>GR_EldritchWolf</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[@Name = "GR_BrainImplants"]/recipeUsers</xpath>
+		<value>
+			<li>GR_EldritchBear</li>
+			<li>GR_EldritchBoomalope</li>
+			<li>GR_EldritchMuffalo</li>
+			<li>GR_EldritchReptile</li>
+			<li>GR_EldritchThrumbo</li>
+			<li>GR_EldritchWolf</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[@Name = "GR_HeartImplants"]/recipeUsers</xpath>
+		<value>
+			<li>GR_EldritchBear</li>
+			<li>GR_EldritchBoomalope</li>
+			<li>GR_EldritchChicken</li>
+			<li>GR_EldritchMuffalo</li>
+			<li>GR_EldritchReptile</li>
+			<li>GR_EldritchThrumbo</li>
+			<li>GR_EldritchWolf</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[@Name = "GR_LungImplants"]/recipeUsers</xpath>
+		<value>
+			<li>GR_EldritchBear</li>
+			<li>GR_EldritchBoomalope</li>
+			<li>GR_EldritchMuffalo</li>
+			<li>GR_EldritchReptile</li>
+			<li>GR_EldritchThrumbo</li>
+			<li>GR_EldritchWolf</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[@Name = "GR_LungImplants"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>ROM_Lung</li>
+			<li>ROM_LungSecond</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[@Name = "GR_LiverImplants"]/recipeUsers</xpath>
+		<value>
+			<li>GR_EldritchBear</li>
+			<li>GR_EldritchBoomalope</li>
+			<li>GR_EldritchMuffalo</li>
+			<li>GR_EldritchReptile</li>
+			<li>GR_EldritchThrumbo</li>
+			<li>GR_EldritchWolf</li>
+		</value>
+	</Operation>
+
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[@Name = "GR_KidneyImplants"]/recipeUsers</xpath>
+		<value>
+			<li>GR_EldritchBear</li>
+			<li>GR_EldritchBoomalope</li>
+			<li>GR_EldritchMuffalo</li>
+			<li>GR_EldritchReptile</li>
+			<li>GR_EldritchThrumbo</li>
+			<li>GR_EldritchWolf</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[@Name = "GR_KidneyImplants"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>ROM_Kidney</li>
+			<li>ROM_KidneySecond</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[@Name = "GR_StomachImplants"]/recipeUsers</xpath>
+		<value>
+			<li>GR_EldritchBear</li>
+			<li>GR_EldritchBoomalope</li>
+			<li>GR_EldritchChicken</li>
+			<li>GR_EldritchMuffalo</li>
+			<li>GR_EldritchReptile</li>
+			<li>GR_EldritchThrumbo</li>
+			<li>GR_EldritchWolf</li>
+		</value>
+	</Operation>
+
+</Patch>

@@ -16,68 +16,68 @@
 
 		</statBases>
 		<tools>
-		  <li>
-			<label>hooves</label>
-			<capacities>
-			  <li>Blunt</li>
-			</capacities>
-			<power>12</power>
-			<cooldownTime>1.5</cooldownTime>
-			<linkedBodyPartsGroup>ROM_Hooves</linkedBodyPartsGroup>
-			<surpriseAttack>
-			  <extraMeleeDamages>
-				<li>
-				  <def>Stun</def>
-				  <amount>19</amount>
-				</li>
-			  </extraMeleeDamages>
-			</surpriseAttack>
-		  </li>
-		  <li>
-			<label>tentacles</label>
-			<capacities>
-			  <li>Blunt</li>
-			</capacities>
-			<power>14</power>
-			<cooldownTime>0.9</cooldownTime>
-			<linkedBodyPartsGroup>ROM_Tentacles</linkedBodyPartsGroup>
-			<surpriseAttack>
-			  <extraMeleeDamages>
-				<li>
-				  <def>Stun</def>
-				  <amount>19</amount>
-				</li>
-			  </extraMeleeDamages>
-			</surpriseAttack>
-		  </li>
-		  <li>
-			<capacities>
-			  <li>ToxicBite</li>
-			</capacities>
-			<power>12</power>
-			<cooldownTime>1.5</cooldownTime>
-			<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-			<surpriseAttack>
-			  <extraMeleeDamages>
-				<li>
-				  <def>Stun</def>
-				  <amount>18</amount>
-				</li>
-			  </extraMeleeDamages>
-			</surpriseAttack>
-		  </li>
-		  <li>
-			<label>head</label>
-			<capacities>
-			  <li>Blunt</li>
-			</capacities>
-			<power>6</power>
-			<cooldownTime>1.65</cooldownTime>
-			<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-			<chanceFactor>0.2</chanceFactor>
-		  </li>
+			<li>
+				<label>hooves</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>ROM_Hooves</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>19</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>tentacles</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>0.9</cooldownTime>
+				<linkedBodyPartsGroup>ROM_Tentacles</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>19</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<capacities>
+					<li>ToxicBite</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>18</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
 		</tools>
-		
+
 		<comps>
 
 			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
@@ -85,8 +85,14 @@
 				<gatheringIntervalDays>10</gatheringIntervalDays>
 				<resourceAmount>50</resourceAmount>
 			</li>
+			<li Class="DraftingPatcher.CompProperties_Draftable">
+				<rage>true</rage>
+				<horror>true</horror>
+			</li>
 		</comps>
 		<race>
+			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
+
 			<useLeatherFrom>ROM_DarkYoung</useLeatherFrom>
 			<useMeatFrom>Bear_Grizzly</useMeatFrom>
 			<herdAnimal>true</herdAnimal>
@@ -150,7 +156,7 @@
 		<race>GR_EldritchBear</race>
 		<combatPower>220</combatPower>
 		<canArriveManhunter>false</canArriveManhunter>
-    <ecoSystemWeight>1</ecoSystemWeight>
+		<ecoSystemWeight>1</ecoSystemWeight>
 		<aiAvoidCover>true</aiAvoidCover>
 
 
@@ -164,7 +170,11 @@
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
-			
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Eldritch/Bear/Dessicated_EldritchBear</texPath>
+					<drawSize>2</drawSize>
+				</dessicatedBodyGraphicData>
+
 			</li>
 			<li>
 				<bodyGraphicData>
@@ -175,7 +185,10 @@
 						<offset>(0,0,-0.25)</offset>
 					</shadowData>
 				</bodyGraphicData>
-				
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Eldritch/Bear/Dessicated_EldritchBear</texPath>
+					<drawSize>3.5</drawSize>
+				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
@@ -186,7 +199,10 @@
 						<offset>(0,0,-0.3)</offset>
 					</shadowData>
 				</bodyGraphicData>
-				
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Eldritch/Bear/Dessicated_EldritchBear</texPath>
+					<drawSize>4</drawSize>
+				</dessicatedBodyGraphicData>
 
 			</li>
 			<li>
@@ -198,7 +214,10 @@
 						<offset>(0,0,-0.3)</offset>
 					</shadowData>
 				</bodyGraphicData>
-			
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Eldritch/Bear/Dessicated_EldritchBear</texPath>
+					<drawSize>4.5</drawSize>
+				</dessicatedBodyGraphicData>
 
 			</li>
 		</lifeStages>
@@ -218,25 +237,29 @@
 			<MeatAmount>20</MeatAmount>
 
 		</statBases>
-	<comps>
+		<comps>
 
-	  <li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
-			<resourceDef>Chemfuel</resourceDef>
-			<gatheringIntervalDays>2</gatheringIntervalDays>
-			<resourceAmount>22</resourceAmount>
-			<customResourceString>ChemfuelProd</customResourceString>
-      </li>
-    </comps>  
+			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+				<resourceDef>Chemfuel</resourceDef>
+				<gatheringIntervalDays>2</gatheringIntervalDays>
+				<resourceAmount>22</resourceAmount>
+				<customResourceString>ChemfuelProd</customResourceString>
+			</li>
+			<li Class="DraftingPatcher.CompProperties_Draftable">
+				<explodable>true</explodable>
+				<horror>true</horror>
+			</li>
+		</comps>  
 		<tools>
 			<li>
-			    <label>amoebic tentacle</label>
+				<label>amoebic tentacle</label>
 
 				<capacities>
 					<li>GR_VeryToxicBite</li>
 				</capacities>
 				<power>9</power>
 				<cooldownTime>1.5</cooldownTime>
-				<linkedBodyPartsGroup>ROM_Tentacles</linkedBodyPartsGroup>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 				<surpriseAttack>
 					<extraMeleeDamages>
 						<li>
@@ -257,16 +280,17 @@
 				<chanceFactor>0.2</chanceFactor>
 			</li>
 		</tools>
-		
+
 
 		<race>
 			<deathActionWorkerClass>ExplosionTypes.DeathActionWorker_PsionicExplosion</deathActionWorkerClass>
 			<leatherDef>GR_Shiftskin</leatherDef>
-					
+			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
+
 			<useMeatFrom>Boomalope</useMeatFrom>
 			<herdAnimal>true</herdAnimal>
 			<predator>false</predator>
-			<body>ROM_StarVampireBody</body>
+			<body>GR_Amorphous</body>
 			<baseHungerRate>2</baseHungerRate>
 			<baseBodySize>3.5</baseBodySize>
 			<baseHealthScale>1</baseHealthScale>
@@ -337,7 +361,10 @@
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
-			
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Eldritch/Boomalope/Dessicated_EldritchBoomalope</texPath>
+					<drawSize>2</drawSize>
+				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
@@ -348,7 +375,10 @@
 						<offset>(0,0,-0.25)</offset>
 					</shadowData>
 				</bodyGraphicData>
-			
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Eldritch/Boomalope/Dessicated_EldritchBoomalope</texPath>
+					<drawSize>3.5</drawSize>
+				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
@@ -359,7 +389,10 @@
 						<offset>(0,0,-0.3)</offset>
 					</shadowData>
 				</bodyGraphicData>
-			
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Eldritch/Boomalope/Dessicated_EldritchBoomalope</texPath>
+					<drawSize>4</drawSize>
+				</dessicatedBodyGraphicData>
 
 			</li>
 			<li>
@@ -371,7 +404,10 @@
 						<offset>(0,0,-0.3)</offset>
 					</shadowData>
 				</bodyGraphicData>
-		
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Eldritch/Boomalope/Dessicated_EldritchBoomalope</texPath>
+					<drawSize>4.5</drawSize>
+				</dessicatedBodyGraphicData>
 
 			</li>
 		</lifeStages>
@@ -394,27 +430,27 @@
 
 		</statBases>
 		<tools>
-		  <li>
-		    <label>overwhelming mind</label>
-			<capacities>
-			  <li>ROM_Psychic</li>
-			</capacities>
-			<power>5</power>
-			<cooldownTime>0.4</cooldownTime>
-			<linkedBodyPartsGroup>ROM_Mind</linkedBodyPartsGroup>
-		  </li>
-		  <li>
-		    <label>body</label>
-			<capacities>
-			  <li>Blunt</li>
-			</capacities>
-			<power>10</power>
-			<cooldownTime>1.5</cooldownTime>
-			<linkedBodyPartsGroup>ROM_Wings</linkedBodyPartsGroup>
-		  </li>
-		  
+			<li>
+				<label>overwhelming mind</label>
+				<capacities>
+					<li>ROM_Psychic</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>0.4</cooldownTime>
+				<linkedBodyPartsGroup>ROM_Mind</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>body</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>ROM_Wings</linkedBodyPartsGroup>
+			</li>
+
 		</tools>
-		
+
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggUnfertilizedDef>GR_EldritchChickenEggUnfertilized</eggUnfertilizedDef>
@@ -423,8 +459,14 @@
 				<eggLayIntervalDays>3.5</eggLayIntervalDays>
 				<eggCountRange>1</eggCountRange>
 			</li>
+			<li Class="DraftingPatcher.CompProperties_Draftable">
+				<chickenRimPox>true</chickenRimPox>
+				<horror>true</horror>
+			</li>
 		</comps>
 		<race>
+			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
+
 			<bloodDef>ROM_Filth_BloodMiGo</bloodDef>		
 			<useLeatherFrom>ROM_MiGo</useLeatherFrom>
 			<useMeatFrom>Chicken</useMeatFrom>
@@ -506,7 +548,10 @@
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
-		
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Eldritch/Chicken/Dessicated_EldritchChicken</texPath>
+					<drawSize>2</drawSize>
+				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
@@ -517,7 +562,10 @@
 						<offset>(0,0,-0.25)</offset>
 					</shadowData>
 				</bodyGraphicData>
-			
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Eldritch/Chicken/Dessicated_EldritchChicken</texPath>
+					<drawSize>3</drawSize>
+				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
@@ -528,7 +576,10 @@
 						<offset>(0,0,-0.3)</offset>
 					</shadowData>
 				</bodyGraphicData>
-			
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Eldritch/Chicken/Dessicated_EldritchChicken</texPath>
+					<drawSize>3.5</drawSize>
+				</dessicatedBodyGraphicData>
 
 			</li>
 			<li>
@@ -540,7 +591,10 @@
 						<offset>(0,0,-0.3)</offset>
 					</shadowData>
 				</bodyGraphicData>
-		
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Eldritch/Chicken/Dessicated_EldritchChicken</texPath>
+					<drawSize>4</drawSize>
+				</dessicatedBodyGraphicData>
 
 			</li>
 		</lifeStages>
@@ -562,43 +616,43 @@
 			<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
 		</statBases>
 		<tools>
-		  <li>
-		  	<label>grasping tentacles</label>
-			<capacities>
-			  <li>Blunt</li>
-			</capacities>
-			<power>7</power>
-			<cooldownTime>1.5</cooldownTime>
-			<linkedBodyPartsGroup>ROM_Tentacles</linkedBodyPartsGroup>
-		  </li>
-		  <li>
-			<label>overwhelming mind</label>
-			<capacities>
-			  <li>ROM_Psychic</li>
-			</capacities>
-			<power>13</power>
-			<cooldownTime>1</cooldownTime>
-			<linkedBodyPartsGroup>ROM_Mind</linkedBodyPartsGroup>
-		  </li>
-		  <li>
-			<label>mandibles</label>
-			<capacities>
-			  <li>Cut</li>
-			</capacities>
-			<power>9</power>
-			<cooldownTime>2</cooldownTime>
-			<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
-			<surpriseAttack>
-			  <extraMeleeDamages>
-				<li>
-				  <def>Stun</def>
-				  <amount>8</amount>
-				</li>
-			  </extraMeleeDamages>
-			</surpriseAttack>
-		  </li>
+			<li>
+				<label>grasping tentacles</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>7</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>ROM_Tentacles</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>overwhelming mind</label>
+				<capacities>
+					<li>ROM_Psychic</li>
+				</capacities>
+				<power>13</power>
+				<cooldownTime>1</cooldownTime>
+				<linkedBodyPartsGroup>ROM_Mind</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>mandibles</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>8</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
 		</tools>
-		
+
 		<comps>
 
 			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
@@ -606,8 +660,14 @@
 				<gatheringIntervalDays>5</gatheringIntervalDays>
 				<resourceAmount>20</resourceAmount>
 			</li>
+			<li Class="DraftingPatcher.CompProperties_Draftable">
+				<insectclouds>true</insectclouds>
+				<horror>true</horror>
+			</li>
 		</comps>
 		<race>
+			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
+
 			<bloodDef>ROM_Filth_BloodDeepOne</bloodDef>
 			<useLeatherFrom>ROM_Chthonian</useLeatherFrom>
 			<useMeatFrom>Megaspider</useMeatFrom>
@@ -688,7 +748,10 @@
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
-			
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Eldritch/Insectoid/Dessicated_EldritchInsectoid</texPath>
+					<drawSize>2</drawSize>
+				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
@@ -699,7 +762,10 @@
 						<offset>(0,0,-0.25)</offset>
 					</shadowData>
 				</bodyGraphicData>
-			
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Eldritch/Insectoid/Dessicated_EldritchInsectoid</texPath>
+					<drawSize>3</drawSize>
+				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
@@ -710,7 +776,10 @@
 						<offset>(0,0,-0.3)</offset>
 					</shadowData>
 				</bodyGraphicData>
-			
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Eldritch/Insectoid/Dessicated_EldritchInsectoid</texPath>
+					<drawSize>3.5</drawSize>
+				</dessicatedBodyGraphicData>
 
 			</li>
 			<li>
@@ -722,7 +791,10 @@
 						<offset>(0,0,-0.3)</offset>
 					</shadowData>
 				</bodyGraphicData>
-			
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Eldritch/Insectoid/Dessicated_EldritchInsectoid</texPath>
+					<drawSize>4</drawSize>
+				</dessicatedBodyGraphicData>
 
 			</li>
 		</lifeStages>
@@ -745,35 +817,35 @@
 			<ComfyTemperatureMax>80</ComfyTemperatureMax>
 		</statBases>
 		<tools>
-		  <li>
-			<label>vampiric teeth</label>
-			<capacities>
-			  <li>ROM_Exsanguination</li>
-			</capacities>
-			<power>8</power>
-			<cooldownTime>1.1</cooldownTime>
-			<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-			<surpriseAttack>
-			  <extraMeleeDamages>
-				<li>
-				  <def>Stun</def>
-				  <amount>10</amount>
-				</li>
-			  </extraMeleeDamages>
-			</surpriseAttack>
-		  </li>
+			<li>
+				<label>vampiric teeth</label>
+				<capacities>
+					<li>ROM_Exsanguination</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>1.1</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>10</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
 
-		  <li>
-			
-			<capacities>
-			  <li>Cut</li>
-			</capacities>
-			<power>12</power>
-			<cooldownTime>2.0</cooldownTime>
-			<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-		  </li>
+			<li>
+
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>2.0</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+			</li>
 		</tools>
-		
+
 		<comps>
 			<li Class="CompProperties_Milkable">
 				<milkDef>GR_EldritchMilk</milkDef>
@@ -785,8 +857,14 @@
 				<shearIntervalDays>25</shearIntervalDays>
 				<woolAmount>80</woolAmount>
 			</li>
+			<li Class="DraftingPatcher.CompProperties_Draftable">
+				<carrymore>true</carrymore>
+				<horror>true</horror>
+			</li>
 		</comps>
 		<race>
+			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
+
 			<bloodDef>Filth_Blood</bloodDef>
 			<useLeatherFrom>ROM_StarVampire</useLeatherFrom>
 			<useMeatFrom>Muffalo</useMeatFrom>
@@ -869,7 +947,10 @@
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
-	
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Eldritch/Muffalo/Dessicated_EldritchMuffalo</texPath>
+					<drawSize>2.5</drawSize>
+				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
@@ -880,7 +961,10 @@
 						<offset>(0,0,-0.25)</offset>
 					</shadowData>
 				</bodyGraphicData>
-			
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Eldritch/Muffalo/Dessicated_EldritchMuffalo</texPath>
+					<drawSize>3.5</drawSize>
+				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
@@ -891,7 +975,10 @@
 						<offset>(0,0,-0.3)</offset>
 					</shadowData>
 				</bodyGraphicData>
-			
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Eldritch/Muffalo/Dessicated_EldritchMuffalo</texPath>
+					<drawSize>4</drawSize>
+				</dessicatedBodyGraphicData>
 
 			</li>
 			<li>
@@ -903,7 +990,10 @@
 						<offset>(0,0,-0.3)</offset>
 					</shadowData>
 				</bodyGraphicData>
-			
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Eldritch/Muffalo/Dessicated_EldritchMuffalo</texPath>
+					<drawSize>4.5</drawSize>
+				</dessicatedBodyGraphicData>
 
 			</li>
 		</lifeStages>
@@ -924,37 +1014,37 @@
 
 		</statBases>
 		<tools>
-		  <li>
-			<label>toxic bite</label>
-			<capacities>
-			  <li>ToxicBite</li>
-			</capacities>
-			<power>4</power>
-			<cooldownTime>0.3</cooldownTime>
-			<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
-			<surpriseAttack>
-			  <extraMeleeDamages>
-				<li>
-				  <def>Stun</def>
-				  <amount>7</amount>
-				</li>
-			  </extraMeleeDamages>
-			</surpriseAttack>
-		  </li>
+			<li>
+				<label>toxic bite</label>
+				<capacities>
+					<li>ToxicBite</li>
+				</capacities>
+				<power>4</power>
+				<cooldownTime>0.3</cooldownTime>
+				<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>7</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
 
-		  <li>
-			
-			<capacities>
-			  <li>Blunt</li>
-			</capacities>
-			<power>1</power>
-			<cooldownTime>0.65</cooldownTime>
-			<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-			<chanceFactor>0.1</chanceFactor>
+			<li>
 
-		  </li>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>1</power>
+				<cooldownTime>0.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<chanceFactor>0.1</chanceFactor>
+
+			</li>
 		</tools>
-		
+
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggUnfertilizedDef>GR_EldritchReptileEggUnfertilized</eggUnfertilizedDef>
@@ -966,8 +1056,14 @@
 					<max>3</max>
 				</eggCountRange>
 			</li>
+			<li Class="DraftingPatcher.CompProperties_Draftable">
+				<poisonouscloud>true</poisonouscloud>
+				<horror>true</horror>
+			</li>
 		</comps>
 		<race>
+			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
+
 			<bloodDef>ROM_Filth_BloodDeepOne</bloodDef>
 			<useLeatherFrom>ROM_Chthonian</useLeatherFrom>
 			<useMeatFrom>Cobra</useMeatFrom>
@@ -1048,7 +1144,10 @@
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
-			
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Eldritch/Reptile/Dessicated_EldritchReptile</texPath>
+					<drawSize>2</drawSize>
+				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
@@ -1059,7 +1158,10 @@
 						<offset>(0,0,-0.25)</offset>
 					</shadowData>
 				</bodyGraphicData>
-			
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Eldritch/Reptile/Dessicated_EldritchReptile</texPath>
+					<drawSize>2.75</drawSize>
+				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
@@ -1070,7 +1172,10 @@
 						<offset>(0,0,-0.3)</offset>
 					</shadowData>
 				</bodyGraphicData>
-		
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Eldritch/Reptile/Dessicated_EldritchReptile</texPath>
+					<drawSize>3</drawSize>
+				</dessicatedBodyGraphicData>
 
 			</li>
 			<li>
@@ -1082,7 +1187,10 @@
 						<offset>(0,0,-0.3)</offset>
 					</shadowData>
 				</bodyGraphicData>
-			
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Eldritch/Reptile/Dessicated_EldritchReptile</texPath>
+					<drawSize>3.5</drawSize>
+				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>
 	</PawnKindDef>
@@ -1101,45 +1209,52 @@
 			<ArmorRating_Sharp>0.40</ArmorRating_Sharp>
 		</statBases>
 		<tools>
-		  <li>
-			<label>rending claws</label>
-			<capacities>
-			  <li>Cut</li>
-			</capacities>
-			<power>20</power>
-			<cooldownTime>0.9</cooldownTime>
-			<linkedBodyPartsGroup>ROM_RightClaws</linkedBodyPartsGroup>
-			
-		  </li>
-		  <li>
-			<label>mandibles</label>
-			<capacities>
-			  <li>Bite</li>
-			</capacities>
-			<power>30</power>
-			<cooldownTime>0.9</cooldownTime>
-			<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-			
-		  </li>
-		  <li>
-			
-			<capacities>
-			  <li>Blunt</li>
-			</capacities>
-			<power>11</power>
-			<cooldownTime>1.65</cooldownTime>
-			<linkedBodyPartsGroup>FullHead</linkedBodyPartsGroup>
-			<chanceFactor>0.01</chanceFactor>
+			<li>
+				<label>rending claws</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>20</power>
+				<cooldownTime>0.9</cooldownTime>
+				<linkedBodyPartsGroup>ROM_RightClaws</linkedBodyPartsGroup>
 
-		  </li>
+			</li>
+			<li>
+				<label>mandibles</label>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>30</power>
+				<cooldownTime>0.9</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+
+			</li>
+			<li>
+
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>11</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>FullHead</linkedBodyPartsGroup>
+				<chanceFactor>0.01</chanceFactor>
+
+			</li>
 		</tools>
-		
 
+		<comps>
+
+			<li Class="DraftingPatcher.CompProperties_Draftable">
+				<stampede>true</stampede>
+				<horror>true</horror>
+			</li>
+		</comps>
 		<race>
 			<bloodDef>ROM_Filth_BloodDeepOne</bloodDef>
 			<useLeatherFrom>ROM_DeepOneGreat</useLeatherFrom>
 			<useMeatFrom>Thrumbo</useMeatFrom>
 			<herdAnimal>true</herdAnimal>
+			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 
 			<body>ROM_DeepOneBody</body>
 			<baseHungerRate>2</baseHungerRate>
@@ -1214,7 +1329,10 @@
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
-			
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Eldritch/Thrumbo/Dessicated_EldritchThrumbo</texPath>
+					<drawSize>3</drawSize>
+				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
@@ -1225,7 +1343,10 @@
 						<offset>(0,0,-0.25)</offset>
 					</shadowData>
 				</bodyGraphicData>
-			
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Eldritch/Thrumbo/Dessicated_EldritchThrumbo</texPath>
+					<drawSize>5</drawSize>
+				</dessicatedBodyGraphicData>
 				<butcherBodyPart>
 					<bodyPartGroup>FullHead</bodyPartGroup>
 					<thing>ThrumboHorn</thing>
@@ -1240,7 +1361,10 @@
 						<offset>(0,0,-0.3)</offset>
 					</shadowData>
 				</bodyGraphicData>
-			
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Eldritch/Thrumbo/Dessicated_EldritchThrumbo</texPath>
+					<drawSize>5.8</drawSize>
+				</dessicatedBodyGraphicData>
 				<butcherBodyPart>
 					<bodyPartGroup>FullHead</bodyPartGroup>
 					<thing>ThrumboHorn</thing>
@@ -1256,7 +1380,10 @@
 						<offset>(0,0,-0.3)</offset>
 					</shadowData>
 				</bodyGraphicData>
-			
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Eldritch/Thrumbo/Dessicated_EldritchThrumbo</texPath>
+					<drawSize>6.5</drawSize>
+				</dessicatedBodyGraphicData>
 				<butcherBodyPart>
 					<bodyPartGroup>FullHead</bodyPartGroup>
 					<thing>ThrumboHorn</thing>
@@ -1282,31 +1409,39 @@
 			<ArmorRating_Sharp>0.9</ArmorRating_Sharp>
 		</statBases>
 		<tools>
-		  <li>
-			<label>venomous fangs</label>
-			<capacities>
-			  <li>ToxicBite</li>
-			</capacities>
-			<power>12</power>
-			<cooldownTime>1</cooldownTime>
-			<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-			
-		  </li>
-		  <li>
-			
-			<capacities>
-			  <li>Cut</li>
-			</capacities>
-			<power>10</power>
-			<cooldownTime>0.7</cooldownTime>
-			<linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
-			
-		  </li>
-		 
+			<li>
+				<label>venomous fangs</label>
+				<capacities>
+					<li>ToxicBite</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+
+			</li>
+			<li>
+
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>0.7</cooldownTime>
+				<linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
+
+			</li>
+
 		</tools>
-		
+		<comps>
+
+			<li Class="DraftingPatcher.CompProperties_Draftable">
+				<adrenalineburst>true</adrenalineburst>
+				<horror>true</horror>
+			</li>
+		</comps>	
 
 		<race>
+			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
+
 			<bloodDef>ROM_Filth_BloodShoggoth</bloodDef>
 			<useLeatherFrom>Wolf_Timber</useLeatherFrom>
 			<useMeatFrom>Wolf_Timber</useMeatFrom>
@@ -1315,16 +1450,16 @@
 			<baseHungerRate>2</baseHungerRate>
 			<baseBodySize>1.5</baseBodySize>
 			<baseHealthScale>2</baseHealthScale>
-			      <predator>true</predator>
-     
-      <foodType>CarnivoreAnimal</foodType>
-    
-      <gestationPeriodDays>22.5</gestationPeriodDays>
-      <nameOnTameChance>1</nameOnTameChance>
-      <trainability>Advanced</trainability>
-      <wildness>0.8</wildness>
-      <nuzzleMtbHours>120</nuzzleMtbHours>
-			
+			<predator>true</predator>
+
+			<foodType>CarnivoreAnimal</foodType>
+
+			<gestationPeriodDays>22.5</gestationPeriodDays>
+			<nameOnTameChance>1</nameOnTameChance>
+			<trainability>Advanced</trainability>
+			<wildness>0.8</wildness>
+			<nuzzleMtbHours>120</nuzzleMtbHours>
+
 			<lifeExpectancy>250</lifeExpectancy>
 			<manhunterOnTameFailChance>0.018</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>1</manhunterOnDamageChance>
@@ -1337,9 +1472,9 @@
 				<li>
 					<def>GR_ROM_FullyFormed</def>
 					<minAge>.45</minAge>
-					 <soundWounded>Pawn_ROM_Shoggoth_Wounded</soundWounded>
-					  <soundDeath>Pawn_ROM_Shoggoth_Death</soundDeath>
-					  <soundCall>Pawn_ROM_Shoggoth_Call</soundCall>
+					<soundWounded>Pawn_ROM_Shoggoth_Wounded</soundWounded>
+					<soundDeath>Pawn_ROM_Shoggoth_Death</soundDeath>
+					<soundCall>Pawn_ROM_Shoggoth_Call</soundCall>
 				</li>
 				<li>
 					<def>GR_ROM_Ancient</def>
@@ -1390,7 +1525,10 @@
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
-			
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Eldritch/Wolf/Dessicated_EldritchWolf</texPath>
+					<drawSize>2</drawSize>
+				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
@@ -1401,8 +1539,11 @@
 						<offset>(0,0,-0.25)</offset>
 					</shadowData>
 				</bodyGraphicData>
-			
-	
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Eldritch/Wolf/Dessicated_EldritchWolf</texPath>
+					<drawSize>3</drawSize>
+				</dessicatedBodyGraphicData>
+
 			</li>
 			<li>
 				<bodyGraphicData>
@@ -1413,8 +1554,11 @@
 						<offset>(0,0,-0.3)</offset>
 					</shadowData>
 				</bodyGraphicData>
-			
-			
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Eldritch/Wolf/Dessicated_EldritchWolf</texPath>
+					<drawSize>3.5</drawSize>
+				</dessicatedBodyGraphicData>
+
 
 			</li>
 			<li>
@@ -1426,8 +1570,11 @@
 						<offset>(0,0,-0.3)</offset>
 					</shadowData>
 				</bodyGraphicData>
-		
-		
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Eldritch/Wolf/Dessicated_EldritchWolf</texPath>
+					<drawSize>4</drawSize>
+				</dessicatedBodyGraphicData>
+
 
 			</li>
 		</lifeStages>
