@@ -12,13 +12,13 @@
 - As with all patch mods, be sure to call it after Call of Cthulhu - Cosmic Horrors mod and GeneticRim mod, or else you'll get some errors.
 
 &lt;size=24&gt;Compatibility&lt;/size&gt;
-Made compatible with A Dog Said using the auto patcher: http://steamcommunity.com/sharedfiles/filedetails/?id=944381237
 Should be savegame compatible and not break anything. Should!
 
 &lt;size=24&gt;Credit&lt;/size&gt;
 Credit goes to jecrell for all his awesome work on Rimworld.
 
 &lt;size=24&gt;Changelog&lt;/size&gt;
+v3.01: Added skeletons for all animals. Added animal implant compatibility. Added special ability for eldritch hybrids using the Animal Control research (31/08/18)
 v3.0: B19 update (29/08/18)
 v2.01: Fixed ROM_RawCHFoodBase reference, and added chemfuel production to the formless boomalope (3/12/17)
 v2.0: B18 update (23/11/17)

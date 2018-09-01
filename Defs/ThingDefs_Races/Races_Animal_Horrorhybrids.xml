@@ -136,6 +136,9 @@
 				<li>ROM_NonBleeder</li>
 			</hediffGiverSets>
 		</race>
+		<tradeTags>
+      <li>AnimalExotic</li>
+    </tradeTags>
 		<butcherProducts>
 			<ROM_RawCHFood_DarkYoungMeat>50</ROM_RawCHFood_DarkYoungMeat>
 		</butcherProducts>
@@ -327,6 +330,9 @@
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 
 		</race>
+		<tradeTags>
+      <li>AnimalExotic</li>
+    </tradeTags>
 		<butcherProducts>
 			<GR_ROM_RawCHFood_FormlessMeat>50</GR_ROM_RawCHFood_FormlessMeat>
 		</butcherProducts>
@@ -514,6 +520,9 @@
 			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
 
 		</race>
+		<tradeTags>
+      <li>AnimalExotic</li>
+    </tradeTags>
 		<butcherProducts>
 			<ROM_RawCHFood_MiGoMeat>25</ROM_RawCHFood_MiGoMeat>
 		</butcherProducts>
@@ -714,6 +723,9 @@
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 
 		</race>
+		<tradeTags>
+      <li>AnimalExotic</li>
+    </tradeTags>
 		<butcherProducts>
 			<ROM_RawCHFood_ChthonianMeat>35</ROM_RawCHFood_ChthonianMeat>
 		</butcherProducts>
@@ -913,6 +925,9 @@
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 
 		</race>
+		<tradeTags>
+      <li>AnimalExotic</li>
+    </tradeTags>
 		<butcherProducts>
 			<ROM_RawCHFood_StarVampireMeat>50</ROM_RawCHFood_StarVampireMeat>
 		</butcherProducts>
@@ -1110,6 +1125,9 @@
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 
 		</race>
+		<tradeTags>
+      <li>AnimalExotic</li>
+    </tradeTags>
 		<butcherProducts>
 			<ROM_RawCHFood_ChthonianMeat>20</ROM_RawCHFood_ChthonianMeat>
 		</butcherProducts>
@@ -1295,6 +1313,9 @@
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 
 		</race>
+		<tradeTags>
+      <li>AnimalExotic</li>
+    </tradeTags>
 		<butcherProducts>
 			<ROM_RawCHFood_DeepOneMeat>90</ROM_RawCHFood_DeepOneMeat>
 		</butcherProducts>
@@ -1491,6 +1512,9 @@
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 
 		</race>
+		<tradeTags>
+      <li>AnimalExotic</li>
+    </tradeTags>
 		<butcherProducts>
 			<ROM_RawCHFood_ShoggothMeat>30</ROM_RawCHFood_ShoggothMeat>
 		</butcherProducts>
