@@ -4,8 +4,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="ModCheck.isModLoaded">
-				<modName>A Dog Said...</modName>
-			</li>
+				<modName>A Dog Said... Animal Prosthetics</modName>
+			</li> 
 
 
 
@@ -121,7 +121,13 @@
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
-				<xpath>/Defs/RecipeDef[defName = "InstallJawAnimalBionic" or "InstallJawAnimalSimple"]/appliedOnFixedBodyParts</xpath>
+				<xpath>/Defs/RecipeDef[defName = "InstallJawAnimalBionic"]/appliedOnFixedBodyParts</xpath>
+				<value>
+					<li>ROM_Maw</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "InstallJawAnimalSimple"]/appliedOnFixedBodyParts</xpath>
 				<value>
 					<li>ROM_Maw</li>
 				</value>
@@ -168,7 +174,15 @@
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
-				<xpath>/Defs/RecipeDef[defName = "InstallEarAnimalSimple" or "InstallEarAnimalBionic"]/appliedOnFixedBodyParts</xpath>
+				<xpath>/Defs/RecipeDef[defName = "InstallEarAnimalSimple"]/appliedOnFixedBodyParts</xpath>
+				<value>
+					<li>ROM_Internal_LeftEar</li>
+					<li>ROM_Internal_RightEar</li>
+
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "InstallEarAnimalBionic"]/appliedOnFixedBodyParts</xpath>
 				<value>
 					<li>ROM_Internal_LeftEar</li>
 					<li>ROM_Internal_RightEar</li>
