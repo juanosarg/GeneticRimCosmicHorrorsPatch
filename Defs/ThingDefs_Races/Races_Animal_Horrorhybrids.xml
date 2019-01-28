@@ -614,7 +614,7 @@
 		<defName>GR_EldritchInsectoid</defName>
 		<label>armoured chthonian larva</label>
 		<description>This engorged, tick-like creature has a writhing mass of tentacles where its head would normally be. They have lost their capacity to burrow underground, but they are capable of powerful psionic attacks.\n\nUseful abilities: Produces eldritch insect jelly every few days.</description>
-
+<thingClass>NewAnimalSubproducts.AlternateHybridSkins</thingClass>
 
 		<statBases>
 			<MoveSpeed>5.7</MoveSpeed>
@@ -742,6 +742,7 @@
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>GR_EldritchInsectoid</defName>
+		
 		<label>armoured chthonian larva</label>
 		<race>GR_EldritchInsectoid</race>
 		<combatPower>80</combatPower>

@@ -6,7 +6,7 @@
 
 &lt;size=24&gt;Features&lt;/size&gt;
 - Adds eight hybrids between vanilla creatures and monsters from the Call of Cthulhu - Cosmic Horrors mod!
-- Adds a new machine, the Eldritch genepod, to mix genes from eldritch abominations and create your hybrids.
+- Adds a new building, the Eldritch genepod, to mix genes from eldritch abominations and create your hybrids.
 
 &lt;size=24&gt;Load Order&lt;/size&gt;
 - As with all patch mods, be sure to call it after Call of Cthulhu - Cosmic Horrors mod and GeneticRim mod, or else you'll get some errors.
@@ -19,6 +19,7 @@ Should be savegame compatible and not break anything. Should!
 Credit goes to jecrell for all his awesome work on Rimworld.
 
 &lt;size=24&gt;Changelog&lt;/size&gt;
+v4.1: New building graphic and optional legless graphics (28/01/19)
 v4.0: Updated to RimWorld 1.0 (18/10/18)
 v3.02: Added A Dog Said patch (16/09/18)
 v3.01: Added skeletons for all animals. Added animal implant compatibility. Added special ability for eldritch hybrids using the Animal Control research (31/08/18)
