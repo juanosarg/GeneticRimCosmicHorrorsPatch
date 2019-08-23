@@ -137,7 +137,7 @@
 			</hediffGiverSets>
 		</race>
 		<tradeTags>
-      <li>AnimalExotic</li>
+      <li>AnimalGenetic</li>
     </tradeTags>
 		<butcherProducts>
 			<ROM_RawCHFood_DarkYoungMeat>50</ROM_RawCHFood_DarkYoungMeat>
@@ -331,7 +331,7 @@
 
 		</race>
 		<tradeTags>
-      <li>AnimalExotic</li>
+      <li>AnimalGenetic</li>
     </tradeTags>
 		<butcherProducts>
 			<GR_ROM_RawCHFood_FormlessMeat>50</GR_ROM_RawCHFood_FormlessMeat>
@@ -521,7 +521,7 @@
 
 		</race>
 		<tradeTags>
-      <li>AnimalExotic</li>
+      <li>AnimalGenetic</li>
     </tradeTags>
 		<butcherProducts>
 			<ROM_RawCHFood_MiGoMeat>25</ROM_RawCHFood_MiGoMeat>
@@ -724,7 +724,7 @@
 
 		</race>
 		<tradeTags>
-      <li>AnimalExotic</li>
+      <li>AnimalGenetic</li>
     </tradeTags>
 		<butcherProducts>
 			<ROM_RawCHFood_ChthonianMeat>35</ROM_RawCHFood_ChthonianMeat>
@@ -927,7 +927,7 @@
 
 		</race>
 		<tradeTags>
-      <li>AnimalExotic</li>
+      <li>AnimalGenetic</li>
     </tradeTags>
 		<butcherProducts>
 			<ROM_RawCHFood_StarVampireMeat>50</ROM_RawCHFood_StarVampireMeat>
@@ -1127,7 +1127,7 @@
 
 		</race>
 		<tradeTags>
-      <li>AnimalExotic</li>
+      <li>AnimalGenetic</li>
     </tradeTags>
 		<butcherProducts>
 			<ROM_RawCHFood_ChthonianMeat>20</ROM_RawCHFood_ChthonianMeat>
@@ -1315,7 +1315,7 @@
 
 		</race>
 		<tradeTags>
-      <li>AnimalExotic</li>
+      <li>AnimalGenetic</li>
     </tradeTags>
 		<butcherProducts>
 			<ROM_RawCHFood_DeepOneMeat>90</ROM_RawCHFood_DeepOneMeat>
@@ -1514,7 +1514,7 @@
 
 		</race>
 		<tradeTags>
-      <li>AnimalExotic</li>
+      <li>AnimalGenetic</li>
     </tradeTags>
 		<butcherProducts>
 			<ROM_RawCHFood_ShoggothMeat>30</ROM_RawCHFood_ShoggothMeat>

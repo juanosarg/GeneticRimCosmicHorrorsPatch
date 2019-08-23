@@ -11,17 +11,16 @@
     <graphicData>
       <color>(163,137,91)</color>
     </graphicData>
+	 <tradeability>Sellable</tradeability>
     <stuffProps>
       <color>(163,137,91)</color>
-      <commonality>0.001</commonality>
+      <commonality>0</commonality>
     </stuffProps>
 	 <statBases>
       <MarketValue>7.5</MarketValue>
-      <StuffPower_Armor_Sharp>2.0</StuffPower_Armor_Sharp>
-				<StuffPower_Armor_Blunt>3.0</StuffPower_Armor_Blunt>
-				<StuffPower_Armor_Heat>1.0</StuffPower_Armor_Heat>
-				<StuffPower_Insulation_Cold>0.75</StuffPower_Insulation_Cold>
-				<StuffPower_Insulation_Heat>0.75</StuffPower_Insulation_Heat>
+				<StuffPower_Armor_Sharp>1.15</StuffPower_Armor_Sharp>
+				<StuffPower_Armor_Blunt>0.36</StuffPower_Armor_Blunt>
+				
     </statBases>
   </ThingDef>
 
