@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+
+	<RecipeDef>
+		<defName>GR_ExtractGenesEldritch</defName>
+		<label>extract genes from an eldritch beast</label>
+		<description>Extract genetic material from an eldritch beast.</description>
+		<jobString>Extracting Genetic Material</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>500</workAmount>
+		<workSkill>Intellectual</workSkill>
+		<recipeUsers>
+			<li>GR_GeneticExtractionTable</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+
+					<thingDefs>
+						<li>Corpse_ROM_DarkYoung</li>
+						<li>Corpse_ROM_Chthonian</li>
+						<li>Corpse_ROM_DeepOne</li>
+						<li>Corpse_ROM_DeepOneGreat</li>
+						<li>Corpse_ROM_ChthonianLarva</li>
+						<li>Corpse_ROM_MiGo</li>
+						<li>Corpse_ROM_Shoggoth</li>
+						<li>Corpse_ROM_Cthulhid</li>
+						<li>Corpse_ROM_StarVampire</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+
+			<thingDefs>
+				<li>Corpse_ROM_DarkYoung</li>
+						<li>Corpse_ROM_Chthonian</li>
+						<li>Corpse_ROM_DeepOne</li>
+						<li>Corpse_ROM_DeepOneGreat</li>
+						<li>Corpse_ROM_ChthonianLarva</li>
+						<li>Corpse_ROM_MiGo</li>
+						<li>Corpse_ROM_Shoggoth</li>
+						<li>Corpse_ROM_Cthulhid</li>
+						<li>Corpse_ROM_StarVampire</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_EldritchGenetic>1</GR_EldritchGenetic>
+		</products>
+		<skillRequirements>
+			<Intellectual>8</Intellectual>
+		</skillRequirements>
+	</RecipeDef>
+
+	
+
+
+
+
+</Defs>

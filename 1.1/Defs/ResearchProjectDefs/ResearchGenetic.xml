@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef>
+    <defName>GR_EldritchGeneticEngineering</defName>
+    <label>eldritch genetic engineering</label>
+    <tab>GR_GeneticReseach</tab>
+    <techLevel>Industrial</techLevel>
+    <description>Research mixing magic and technology to infuse creatures with the essence of the Great Old Ones.</description>
+    <baseCost>1000</baseCost>
+    <prerequisites>
+      <li>GR_GeneticEngineering</li>
+    </prerequisites>
+    
+		<researchViewX>4</researchViewX>
+		<researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+
+
+
+</Defs>
