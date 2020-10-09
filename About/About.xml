@@ -15,10 +15,10 @@
 			<downloadUrl>https://github.com/juanosarg/GeneticRim/releases</downloadUrl>
 		</li>
 		<li>
-			<packageId>rimofmadness.callofcthulhu.cosmichorrors</packageId>
-			<displayName>Call of Cthulhu - Cosmic Horrors</displayName>
-			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=765890823</steamWorkshopUrl>
-			<downloadUrl>https://discord.gg/AaVFA7V</downloadUrl>
+			<packageId>Mlie.CallofCthulhuCosmicHorrors</packageId>
+			<displayName>Call of Cthulhu - Cosmic Horrors (Continued)</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2246088032</steamWorkshopUrl>
+			<downloadUrl></downloadUrl>
 		</li>
 	</modDependencies>
 	<description>Extract DNA from animals and hybridize them to create new, exotic species!
